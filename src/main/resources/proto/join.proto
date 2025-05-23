@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package protocol;
+
+enum RoomType {
+  Multi = 0;
+  Solo = 1;
+  // Add others if needed
+}
+
+message JoinReq {
+  uint32 theme = 1;
+  RoomType room = 2;
+}

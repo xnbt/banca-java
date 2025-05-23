@@ -1,0 +1,39 @@
+
+J
+java:S1444"/Make this "public static MAIL_INFO" field final(¤Β½³όÿÿÿÿ
+K
+java:S1444"5Make this "public static U2S_VIP_EXP_REQ" field final(ή‰―μ
+K
+java:S1444"5Make this "public static U2S_JACKPOT_REQ" field final(“’Η
+L
+java:S1444"6Make this "public static U2S_FREESPIN_ALL" field final(¦τ¦
+R
+java:S1444"<Make this "public static U2S_FREESPIN_AUTO_SEND" field final(ισΐ
+O
+java:S1444":Make this "public static U2S_FREESPIN_HISTROY" field final(ητι5
+p
+java:S1104"UMake MAIL_INFO a static final constant or non-public and provide accessors if needed.(¤Β½³όÿÿÿÿ
+q
+java:S1104"[Make U2S_VIP_EXP_REQ a static final constant or non-public and provide accessors if needed.(ή‰―μ
+q
+java:S1104"[Make U2S_JACKPOT_REQ a static final constant or non-public and provide accessors if needed.(“’Η
+r
+java:S1104"\Make U2S_FREESPIN_ALL a static final constant or non-public and provide accessors if needed.(¦τ¦
+x
+java:S1104"bMake U2S_FREESPIN_AUTO_SEND a static final constant or non-public and provide accessors if needed.(ισΐ
+u
+java:S1104"`Make U2S_FREESPIN_HISTROY a static final constant or non-public and provide accessors if needed.(ητι5
+o
+java:S3008"TRename this field "MAIL_INFO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Β½³όÿÿÿÿ
+p
+java:S3008"ZRename this field "U2S_VIP_EXP_REQ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ή‰―μ
+p
+java:S3008"ZRename this field "U2S_JACKPOT_REQ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“’Η
+q
+java:S3008"[Rename this field "U2S_FREESPIN_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦τ¦
+w
+java:S3008"aRename this field "U2S_FREESPIN_AUTO_SEND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ισΐ
+t
+java:S3008"_Rename this field "U2S_FREESPIN_HISTROY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ητι5
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Π«Δÿ

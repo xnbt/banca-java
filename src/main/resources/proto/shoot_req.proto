@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package protocol;
+
+// Giả định kiểu Point
+message Point {
+  float x = 1;
+  float y = 2;
+}
+
+// Giả định enum ShootType tương ứng với bC.Normal, v.v.
+enum ShootType {
+  NORMAL = 0;
+  SPECIAL = 1;
+  // Thêm các giá trị khác nếu cần
+}
+
+message ShootReq {
+  int32 bet = 1;
+  Point point = 2;
+  ShootType type = 3;
+  uint32 fishId = 4;
+  uint32 bulletId = 5;
+}

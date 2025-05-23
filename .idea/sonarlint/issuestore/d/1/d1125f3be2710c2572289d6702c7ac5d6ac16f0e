@@ -1,0 +1,67 @@
+
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(¢€Ëó8ÜŞû…ë2
+V	java:S106–"9Replace this use of System.out or System.err by a logger.(‹òäŒ8ÜŞû…ë2
+[	java:S106"9Replace this use of System.out or System.err by a logger.(…œ†¬ùÿÿÿÿ8¾ø…ë2
+V	java:S106«"9Replace this use of System.out or System.err by a logger.(á¸Ø’8§„»÷ë2
+”
+java:S1192©"qDefine a constant instead of duplicating this literal "[â†‘] Sent U2S_MAIL_INFO (115) with lang = vi-VN" 3 times.(ÁÒœúÿÿÿÿ8§„»÷ë2
+u
+java:S1450"XRemove the "loginSent" field and declare it as a local variable in the relevant methods.(ä”Ã—8­‘÷…ë2
+j	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ†Í”8§„»÷ë2
+V	java:S106ù"9Replace this use of System.out or System.err by a logger.(ù›Ğ8§„»÷ë2
+}
+java:S1192«"_Define a constant instead of duplicating this literal "[!] Failed to send MAIL_INFO: " 3 times.(á¸Ø’8§„»÷ë2
+[	java:S106"9Replace this use of System.out or System.err by a logger.(²²”•øÿÿÿÿ8ó—Ö…ë2
+[	java:S106ö"9Replace this use of System.out or System.err by a logger.(À¯‚‘ùÿÿÿÿ8§„»÷ë2
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(Ğºê”8í›©ıë2
+k	java:S100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãš¥—8§„»÷ë2
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(ç¹şùÿÿÿÿ8§„»÷ë2
+V	java:S106Æ"9Replace this use of System.out or System.err by a logger.(†¾üâ8§„»÷ë2
+[	java:S106È"9Replace this use of System.out or System.err by a logger.(…ì·ÿÿÿÿÿ8§„»÷ë2
+T	java:S106)"9Replace this use of System.out or System.err by a logger.(†¤„t8ó—Ö…ë2
+[	java:S106æ"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8§„»÷ë2
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(¾±Öêıÿÿÿÿ8ó—Ö…ë2
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.( “¯çıÿÿÿÿ8§„»÷ë2
+V	java:S106è"9Replace this use of System.out or System.err by a logger.(á¸Ø’8§„»÷ë2
+[	java:S106©"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8§„»÷ë2
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(áª¬ôşÿÿÿÿ8ó—Ö…ë2
+[	java:S106Ô"9Replace this use of System.out or System.err by a logger.(ş’Ï¿ùÿÿÿÿ8§„»÷ë2
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(ıùş§üÿÿÿÿ8§„»÷ë2
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¶³ñ¾øÿÿÿÿ8§„»÷ë2
+[	java:S106Õ"9Replace this use of System.out or System.err by a logger.(•–àäÿÿÿÿÿ8§„»÷ë2
+[	java:S106â"9Replace this use of System.out or System.err by a logger.(íª ›şÿÿÿÿ8§„»÷ë2
+[	java:S106ô"9Replace this use of System.out or System.err by a logger.(Ì«şøÿÿÿÿ8ó—Ö…ë2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¼ø¾8ó—Ö…ë2
+U	java:S106s"9Replace this use of System.out or System.err by a logger.(Ó‹×Ó8§„»÷ë2
+V	java:S106†"9Replace this use of System.out or System.err by a logger.(“—¬©8ó—Ö…ë2
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(ˆÇî8§„»÷ë2
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(£ºİşÿÿÿÿ8ó—Ö…ë2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(å³¯8§„»÷ë2
+T
+java:S2387"2"uri" is the name of a field in "WebSocketClient".(Ûèê¾ùÿÿÿÿ8¾ø…ë2
+V	java:S106"9Replace this use of System.out or System.err by a logger.(å³¯8§„»÷ë2
+U	java:S106q"9Replace this use of System.out or System.err by a logger.(—€˜Ÿ8ó—Ö…ë2
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(‚„«ğıÿÿÿÿ8§„»÷ë2
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(ğÑ¶Ñ8§„»÷ë2
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8§„»÷ë2
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(á¸Ø’8§„»÷ë2
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(‡Àµ¹şÿÿÿÿ8ò¦ä†ë2
+V	java:S106Å"9Replace this use of System.out or System.err by a logger.(æ¡‚‡8§„»÷ë2
+J
+java:S1068"-Remove this unused "loginSent" private field.(ä”Ã—8ó—Ö…ë2
+M
+java:S1144¦"/Remove this unused private "bytesToHex" method.(Ñø8¾ø…ë2
+[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(•–àäÿÿÿÿÿ8§„»÷ë2
+V	java:S106·"9Replace this use of System.out or System.err by a logger.(ëÑØÖ8í›©ıë2
+V	java:S106Ó"9Replace this use of System.out or System.err by a logger.(æ¡‚‡8§„»÷ë2
+V	java:S106û"9Replace this use of System.out or System.err by a logger.(®èã8§„»÷ë2
+j	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£±å©8§„»÷ë2
+j	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êø¸L8§„»÷ë2
+o	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÆĞÌşÿÿÿÿ8§„»÷ë2
+[	java:S106Ö"9Replace this use of System.out or System.err by a logger.(œÙ´¾üÿÿÿÿ8§„»÷ë2
+o	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀûŒÃşÿÿÿÿ8§„»÷ë2
+[	java:S106"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8§„»÷ë2
+k	java:S100Ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÒãĞ8§„»÷ë2
+[	java:S106’"9Replace this use of System.out or System.err by a logger.(í¦†Ûûÿÿÿÿ8ó—Ö…ë2
+[	java:S106"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8§„»÷ë2
+[	java:S106à"9Replace this use of System.out or System.err by a logger.(»ù»üÿÿÿÿ8§„»÷ë2

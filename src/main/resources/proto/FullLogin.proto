@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package annin_protocol;
+
+message LoginData {
+  string os = 1;
+  string language = 2;
+  Browser browser = 3;
+  string version = 4;
+  string model = 5;
+
+  message Browser {
+    string type = 1;
+    string version = 2;
+    string language = 3;
+    uint32 width = 4;
+    uint32 height = 5;
+    double ratio = 6;
+  }
+}

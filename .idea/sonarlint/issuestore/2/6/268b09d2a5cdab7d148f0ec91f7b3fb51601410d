@@ -1,0 +1,15 @@
+
+L
+java:S1481"/Remove this unused "binaryData" local variable.(‹“Ê8¥Ò²´ê2
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(îÆæˆıÿÿÿÿ8áÆ…µê2
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Äí¼şúÿÿÿÿ8áÆ…µê2
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(Æ’‚ª8áÆ…µê2
+T	java:S106""9Replace this use of System.out or System.err by a logger.(„Ú´8áÆ…µê2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬ëÿîùÿÿÿÿ8Šœ¯²ê2
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(¯—éÂùÿÿÿÿ8áÆ…µê2
+[
+java:S1854">Remove this useless assignment to local variable "binaryData".(³î‚Ã8¥Ò²´ê2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ¶8Šœ¯²ê2
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(„ ÌÆ8áÆ…µê2
+U	java:S106("9Replace this use of System.out or System.err by a logger.(‰Ç†¼8áÆ…µê2
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(Ëúó¿ùÿÿÿÿ8áÆ…µê2

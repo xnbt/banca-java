@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package annin_protocol;
+
+message MissionRequest {
+  string lang = 1;
+}

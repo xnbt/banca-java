@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protocol;
+
+message HitReq {
+  uint32 bulletId = 1;
+  repeated uint32 fishId = 2;  // ✅ fishId là mảng
+  uint32 hits = 3;
+}
