@@ -8,6 +8,11 @@ message Point {
   float y = 2;
 }
 
+enum BulletType {
+  Normal = 0;
+  // Add other enum values if needed
+}
+
 // Giả định enum ShootType tương ứng với bC.Normal, v.v.
 enum ShootType {
   NORMAL = 0;
@@ -16,9 +21,9 @@ enum ShootType {
 }
 
 message ShootReq {
-  int32 bet = 1;
+  double  bet = 1;
   Point point = 2;
-  ShootType type = 3;
+  BulletType type = 3;   // enum
   uint32 fishId = 4;
   uint32 bulletId = 5;
 }

@@ -30,11 +30,19 @@ public final class FullLogin {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <pre>
+     * "Windows"
+     * </pre>
+     *
      * <code>string os = 1;</code>
      * @return The os.
      */
     java.lang.String getOs();
     /**
+     * <pre>
+     * "Windows"
+     * </pre>
+     *
      * <code>string os = 1;</code>
      * @return The bytes for os.
      */
@@ -42,11 +50,19 @@ public final class FullLogin {
         getOsBytes();
 
     /**
+     * <pre>
+     * "vi-VN"
+     * </pre>
+     *
      * <code>string language = 2;</code>
      * @return The language.
      */
     java.lang.String getLanguage();
     /**
+     * <pre>
+     * "vi-VN"
+     * </pre>
+     *
      * <code>string language = 2;</code>
      * @return The bytes for language.
      */
@@ -69,11 +85,19 @@ public final class FullLogin {
     annin_protocol.FullLogin.LoginData.BrowserOrBuilder getBrowserOrBuilder();
 
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string version = 4;</code>
      * @return The version.
      */
     java.lang.String getVersion();
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string version = 4;</code>
      * @return The bytes for version.
      */
@@ -81,11 +105,19 @@ public final class FullLogin {
         getVersionBytes();
 
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string model = 5;</code>
      * @return The model.
      */
     java.lang.String getModel();
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string model = 5;</code>
      * @return The bytes for model.
      */
@@ -138,11 +170,19 @@ public final class FullLogin {
         com.google.protobuf.MessageOrBuilder {
 
       /**
+       * <pre>
+       * "chrome"
+       * </pre>
+       *
        * <code>string type = 1;</code>
        * @return The type.
        */
       java.lang.String getType();
       /**
+       * <pre>
+       * "chrome"
+       * </pre>
+       *
        * <code>string type = 1;</code>
        * @return The bytes for type.
        */
@@ -150,11 +190,19 @@ public final class FullLogin {
           getTypeBytes();
 
       /**
+       * <pre>
+       * "137.0.0.0"
+       * </pre>
+       *
        * <code>string version = 2;</code>
        * @return The version.
        */
       java.lang.String getVersion();
       /**
+       * <pre>
+       * "137.0.0.0"
+       * </pre>
+       *
        * <code>string version = 2;</code>
        * @return The bytes for version.
        */
@@ -162,11 +210,19 @@ public final class FullLogin {
           getVersionBytes();
 
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string language = 3;</code>
        * @return The language.
        */
       java.lang.String getLanguage();
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string language = 3;</code>
        * @return The bytes for language.
        */
@@ -174,22 +230,34 @@ public final class FullLogin {
           getLanguageBytes();
 
       /**
+       * <pre>
+       * 1366 — MUST be uint32
+       * </pre>
+       *
        * <code>uint32 width = 4;</code>
        * @return The width.
        */
       int getWidth();
 
       /**
+       * <pre>
+       * 768  — MUST be uint32
+       * </pre>
+       *
        * <code>uint32 height = 5;</code>
        * @return The height.
        */
       int getHeight();
 
       /**
-       * <code>double ratio = 6;</code>
+       * <pre>
+       * 1.0 — MUST be float (NOT double)
+       * </pre>
+       *
+       * <code>float ratio = 6;</code>
        * @return The ratio.
        */
-      double getRatio();
+      float getRatio();
     }
     /**
      * Protobuf type {@code annin_protocol.LoginData.Browser}
@@ -235,6 +303,10 @@ public final class FullLogin {
       @SuppressWarnings("serial")
       private volatile java.lang.Object type_ = "";
       /**
+       * <pre>
+       * "chrome"
+       * </pre>
+       *
        * <code>string type = 1;</code>
        * @return The type.
        */
@@ -252,6 +324,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * "chrome"
+       * </pre>
+       *
        * <code>string type = 1;</code>
        * @return The bytes for type.
        */
@@ -274,6 +350,10 @@ public final class FullLogin {
       @SuppressWarnings("serial")
       private volatile java.lang.Object version_ = "";
       /**
+       * <pre>
+       * "137.0.0.0"
+       * </pre>
+       *
        * <code>string version = 2;</code>
        * @return The version.
        */
@@ -291,6 +371,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * "137.0.0.0"
+       * </pre>
+       *
        * <code>string version = 2;</code>
        * @return The bytes for version.
        */
@@ -313,6 +397,10 @@ public final class FullLogin {
       @SuppressWarnings("serial")
       private volatile java.lang.Object language_ = "";
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string language = 3;</code>
        * @return The language.
        */
@@ -330,6 +418,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string language = 3;</code>
        * @return The bytes for language.
        */
@@ -351,6 +443,10 @@ public final class FullLogin {
       public static final int WIDTH_FIELD_NUMBER = 4;
       private int width_ = 0;
       /**
+       * <pre>
+       * 1366 — MUST be uint32
+       * </pre>
+       *
        * <code>uint32 width = 4;</code>
        * @return The width.
        */
@@ -362,6 +458,10 @@ public final class FullLogin {
       public static final int HEIGHT_FIELD_NUMBER = 5;
       private int height_ = 0;
       /**
+       * <pre>
+       * 768  — MUST be uint32
+       * </pre>
+       *
        * <code>uint32 height = 5;</code>
        * @return The height.
        */
@@ -371,13 +471,17 @@ public final class FullLogin {
       }
 
       public static final int RATIO_FIELD_NUMBER = 6;
-      private double ratio_ = 0D;
+      private float ratio_ = 0F;
       /**
-       * <code>double ratio = 6;</code>
+       * <pre>
+       * 1.0 — MUST be float (NOT double)
+       * </pre>
+       *
+       * <code>float ratio = 6;</code>
        * @return The ratio.
        */
       @java.lang.Override
-      public double getRatio() {
+      public float getRatio() {
         return ratio_;
       }
 
@@ -410,8 +514,8 @@ public final class FullLogin {
         if (height_ != 0) {
           output.writeUInt32(5, height_);
         }
-        if (java.lang.Double.doubleToRawLongBits(ratio_) != 0) {
-          output.writeDouble(6, ratio_);
+        if (java.lang.Float.floatToRawIntBits(ratio_) != 0) {
+          output.writeFloat(6, ratio_);
         }
         getUnknownFields().writeTo(output);
       }
@@ -439,9 +543,9 @@ public final class FullLogin {
           size += com.google.protobuf.CodedOutputStream
             .computeUInt32Size(5, height_);
         }
-        if (java.lang.Double.doubleToRawLongBits(ratio_) != 0) {
+        if (java.lang.Float.floatToRawIntBits(ratio_) != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeDoubleSize(6, ratio_);
+            .computeFloatSize(6, ratio_);
         }
         size += getUnknownFields().getSerializedSize();
         memoizedSize = size;
@@ -468,8 +572,8 @@ public final class FullLogin {
             != other.getWidth()) return false;
         if (getHeight()
             != other.getHeight()) return false;
-        if (java.lang.Double.doubleToLongBits(getRatio())
-            != java.lang.Double.doubleToLongBits(
+        if (java.lang.Float.floatToIntBits(getRatio())
+            != java.lang.Float.floatToIntBits(
                 other.getRatio())) return false;
         if (!getUnknownFields().equals(other.getUnknownFields())) return false;
         return true;
@@ -493,8 +597,8 @@ public final class FullLogin {
         hash = (37 * hash) + HEIGHT_FIELD_NUMBER;
         hash = (53 * hash) + getHeight();
         hash = (37 * hash) + RATIO_FIELD_NUMBER;
-        hash = (53 * hash) + com.google.protobuf.Internal.hashLong(
-            java.lang.Double.doubleToLongBits(getRatio()));
+        hash = (53 * hash) + java.lang.Float.floatToIntBits(
+            getRatio());
         hash = (29 * hash) + getUnknownFields().hashCode();
         memoizedHashCode = hash;
         return hash;
@@ -631,7 +735,7 @@ public final class FullLogin {
           language_ = "";
           width_ = 0;
           height_ = 0;
-          ratio_ = 0D;
+          ratio_ = 0F;
           return this;
         }
 
@@ -718,7 +822,7 @@ public final class FullLogin {
           if (other.getHeight() != 0) {
             setHeight(other.getHeight());
           }
-          if (java.lang.Double.doubleToRawLongBits(other.getRatio()) != 0) {
+          if (java.lang.Float.floatToRawIntBits(other.getRatio()) != 0) {
             setRatio(other.getRatio());
           }
           this.mergeUnknownFields(other.getUnknownFields());
@@ -772,11 +876,11 @@ public final class FullLogin {
                   bitField0_ |= 0x00000010;
                   break;
                 } // case 40
-                case 49: {
-                  ratio_ = input.readDouble();
+                case 53: {
+                  ratio_ = input.readFloat();
                   bitField0_ |= 0x00000020;
                   break;
-                } // case 49
+                } // case 53
                 default: {
                   if (!super.parseUnknownField(input, extensionRegistry, tag)) {
                     done = true; // was an endgroup tag
@@ -796,6 +900,10 @@ public final class FullLogin {
 
         private java.lang.Object type_ = "";
         /**
+         * <pre>
+         * "chrome"
+         * </pre>
+         *
          * <code>string type = 1;</code>
          * @return The type.
          */
@@ -812,6 +920,10 @@ public final class FullLogin {
           }
         }
         /**
+         * <pre>
+         * "chrome"
+         * </pre>
+         *
          * <code>string type = 1;</code>
          * @return The bytes for type.
          */
@@ -829,6 +941,10 @@ public final class FullLogin {
           }
         }
         /**
+         * <pre>
+         * "chrome"
+         * </pre>
+         *
          * <code>string type = 1;</code>
          * @param value The type to set.
          * @return This builder for chaining.
@@ -842,6 +958,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * "chrome"
+         * </pre>
+         *
          * <code>string type = 1;</code>
          * @return This builder for chaining.
          */
@@ -852,6 +972,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * "chrome"
+         * </pre>
+         *
          * <code>string type = 1;</code>
          * @param value The bytes for type to set.
          * @return This builder for chaining.
@@ -868,6 +992,10 @@ public final class FullLogin {
 
         private java.lang.Object version_ = "";
         /**
+         * <pre>
+         * "137.0.0.0"
+         * </pre>
+         *
          * <code>string version = 2;</code>
          * @return The version.
          */
@@ -884,6 +1012,10 @@ public final class FullLogin {
           }
         }
         /**
+         * <pre>
+         * "137.0.0.0"
+         * </pre>
+         *
          * <code>string version = 2;</code>
          * @return The bytes for version.
          */
@@ -901,6 +1033,10 @@ public final class FullLogin {
           }
         }
         /**
+         * <pre>
+         * "137.0.0.0"
+         * </pre>
+         *
          * <code>string version = 2;</code>
          * @param value The version to set.
          * @return This builder for chaining.
@@ -914,6 +1050,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * "137.0.0.0"
+         * </pre>
+         *
          * <code>string version = 2;</code>
          * @return This builder for chaining.
          */
@@ -924,6 +1064,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * "137.0.0.0"
+         * </pre>
+         *
          * <code>string version = 2;</code>
          * @param value The bytes for version to set.
          * @return This builder for chaining.
@@ -940,6 +1084,10 @@ public final class FullLogin {
 
         private java.lang.Object language_ = "";
         /**
+         * <pre>
+         * ""
+         * </pre>
+         *
          * <code>string language = 3;</code>
          * @return The language.
          */
@@ -956,6 +1104,10 @@ public final class FullLogin {
           }
         }
         /**
+         * <pre>
+         * ""
+         * </pre>
+         *
          * <code>string language = 3;</code>
          * @return The bytes for language.
          */
@@ -973,6 +1125,10 @@ public final class FullLogin {
           }
         }
         /**
+         * <pre>
+         * ""
+         * </pre>
+         *
          * <code>string language = 3;</code>
          * @param value The language to set.
          * @return This builder for chaining.
@@ -986,6 +1142,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * ""
+         * </pre>
+         *
          * <code>string language = 3;</code>
          * @return This builder for chaining.
          */
@@ -996,6 +1156,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * ""
+         * </pre>
+         *
          * <code>string language = 3;</code>
          * @param value The bytes for language to set.
          * @return This builder for chaining.
@@ -1012,6 +1176,10 @@ public final class FullLogin {
 
         private int width_ ;
         /**
+         * <pre>
+         * 1366 — MUST be uint32
+         * </pre>
+         *
          * <code>uint32 width = 4;</code>
          * @return The width.
          */
@@ -1020,6 +1188,10 @@ public final class FullLogin {
           return width_;
         }
         /**
+         * <pre>
+         * 1366 — MUST be uint32
+         * </pre>
+         *
          * <code>uint32 width = 4;</code>
          * @param value The width to set.
          * @return This builder for chaining.
@@ -1032,6 +1204,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * 1366 — MUST be uint32
+         * </pre>
+         *
          * <code>uint32 width = 4;</code>
          * @return This builder for chaining.
          */
@@ -1044,6 +1220,10 @@ public final class FullLogin {
 
         private int height_ ;
         /**
+         * <pre>
+         * 768  — MUST be uint32
+         * </pre>
+         *
          * <code>uint32 height = 5;</code>
          * @return The height.
          */
@@ -1052,6 +1232,10 @@ public final class FullLogin {
           return height_;
         }
         /**
+         * <pre>
+         * 768  — MUST be uint32
+         * </pre>
+         *
          * <code>uint32 height = 5;</code>
          * @param value The height to set.
          * @return This builder for chaining.
@@ -1064,6 +1248,10 @@ public final class FullLogin {
           return this;
         }
         /**
+         * <pre>
+         * 768  — MUST be uint32
+         * </pre>
+         *
          * <code>uint32 height = 5;</code>
          * @return This builder for chaining.
          */
@@ -1074,21 +1262,29 @@ public final class FullLogin {
           return this;
         }
 
-        private double ratio_ ;
+        private float ratio_ ;
         /**
-         * <code>double ratio = 6;</code>
+         * <pre>
+         * 1.0 — MUST be float (NOT double)
+         * </pre>
+         *
+         * <code>float ratio = 6;</code>
          * @return The ratio.
          */
         @java.lang.Override
-        public double getRatio() {
+        public float getRatio() {
           return ratio_;
         }
         /**
-         * <code>double ratio = 6;</code>
+         * <pre>
+         * 1.0 — MUST be float (NOT double)
+         * </pre>
+         *
+         * <code>float ratio = 6;</code>
          * @param value The ratio to set.
          * @return This builder for chaining.
          */
-        public Builder setRatio(double value) {
+        public Builder setRatio(float value) {
 
           ratio_ = value;
           bitField0_ |= 0x00000020;
@@ -1096,12 +1292,16 @@ public final class FullLogin {
           return this;
         }
         /**
-         * <code>double ratio = 6;</code>
+         * <pre>
+         * 1.0 — MUST be float (NOT double)
+         * </pre>
+         *
+         * <code>float ratio = 6;</code>
          * @return This builder for chaining.
          */
         public Builder clearRatio() {
           bitField0_ = (bitField0_ & ~0x00000020);
-          ratio_ = 0D;
+          ratio_ = 0F;
           onChanged();
           return this;
         }
@@ -1162,6 +1362,10 @@ public final class FullLogin {
     @SuppressWarnings("serial")
     private volatile java.lang.Object os_ = "";
     /**
+     * <pre>
+     * "Windows"
+     * </pre>
+     *
      * <code>string os = 1;</code>
      * @return The os.
      */
@@ -1179,6 +1383,10 @@ public final class FullLogin {
       }
     }
     /**
+     * <pre>
+     * "Windows"
+     * </pre>
+     *
      * <code>string os = 1;</code>
      * @return The bytes for os.
      */
@@ -1201,6 +1409,10 @@ public final class FullLogin {
     @SuppressWarnings("serial")
     private volatile java.lang.Object language_ = "";
     /**
+     * <pre>
+     * "vi-VN"
+     * </pre>
+     *
      * <code>string language = 2;</code>
      * @return The language.
      */
@@ -1218,6 +1430,10 @@ public final class FullLogin {
       }
     }
     /**
+     * <pre>
+     * "vi-VN"
+     * </pre>
+     *
      * <code>string language = 2;</code>
      * @return The bytes for language.
      */
@@ -1266,6 +1482,10 @@ public final class FullLogin {
     @SuppressWarnings("serial")
     private volatile java.lang.Object version_ = "";
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string version = 4;</code>
      * @return The version.
      */
@@ -1283,6 +1503,10 @@ public final class FullLogin {
       }
     }
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string version = 4;</code>
      * @return The bytes for version.
      */
@@ -1305,6 +1529,10 @@ public final class FullLogin {
     @SuppressWarnings("serial")
     private volatile java.lang.Object model_ = "";
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string model = 5;</code>
      * @return The model.
      */
@@ -1322,6 +1550,10 @@ public final class FullLogin {
       }
     }
     /**
+     * <pre>
+     * ""
+     * </pre>
+     *
      * <code>string model = 5;</code>
      * @return The bytes for model.
      */
@@ -1753,6 +1985,10 @@ public final class FullLogin {
 
       private java.lang.Object os_ = "";
       /**
+       * <pre>
+       * "Windows"
+       * </pre>
+       *
        * <code>string os = 1;</code>
        * @return The os.
        */
@@ -1769,6 +2005,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * "Windows"
+       * </pre>
+       *
        * <code>string os = 1;</code>
        * @return The bytes for os.
        */
@@ -1786,6 +2026,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * "Windows"
+       * </pre>
+       *
        * <code>string os = 1;</code>
        * @param value The os to set.
        * @return This builder for chaining.
@@ -1799,6 +2043,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * "Windows"
+       * </pre>
+       *
        * <code>string os = 1;</code>
        * @return This builder for chaining.
        */
@@ -1809,6 +2057,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * "Windows"
+       * </pre>
+       *
        * <code>string os = 1;</code>
        * @param value The bytes for os to set.
        * @return This builder for chaining.
@@ -1825,6 +2077,10 @@ public final class FullLogin {
 
       private java.lang.Object language_ = "";
       /**
+       * <pre>
+       * "vi-VN"
+       * </pre>
+       *
        * <code>string language = 2;</code>
        * @return The language.
        */
@@ -1841,6 +2097,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * "vi-VN"
+       * </pre>
+       *
        * <code>string language = 2;</code>
        * @return The bytes for language.
        */
@@ -1858,6 +2118,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * "vi-VN"
+       * </pre>
+       *
        * <code>string language = 2;</code>
        * @param value The language to set.
        * @return This builder for chaining.
@@ -1871,6 +2135,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * "vi-VN"
+       * </pre>
+       *
        * <code>string language = 2;</code>
        * @return This builder for chaining.
        */
@@ -1881,6 +2149,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * "vi-VN"
+       * </pre>
+       *
        * <code>string language = 2;</code>
        * @param value The bytes for language to set.
        * @return This builder for chaining.
@@ -2018,6 +2290,10 @@ public final class FullLogin {
 
       private java.lang.Object version_ = "";
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string version = 4;</code>
        * @return The version.
        */
@@ -2034,6 +2310,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string version = 4;</code>
        * @return The bytes for version.
        */
@@ -2051,6 +2331,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string version = 4;</code>
        * @param value The version to set.
        * @return This builder for chaining.
@@ -2064,6 +2348,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string version = 4;</code>
        * @return This builder for chaining.
        */
@@ -2074,6 +2362,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string version = 4;</code>
        * @param value The bytes for version to set.
        * @return This builder for chaining.
@@ -2090,6 +2382,10 @@ public final class FullLogin {
 
       private java.lang.Object model_ = "";
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string model = 5;</code>
        * @return The model.
        */
@@ -2106,6 +2402,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string model = 5;</code>
        * @return The bytes for model.
        */
@@ -2123,6 +2423,10 @@ public final class FullLogin {
         }
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string model = 5;</code>
        * @param value The model to set.
        * @return This builder for chaining.
@@ -2136,6 +2440,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string model = 5;</code>
        * @return This builder for chaining.
        */
@@ -2146,6 +2454,10 @@ public final class FullLogin {
         return this;
       }
       /**
+       * <pre>
+       * ""
+       * </pre>
+       *
        * <code>string model = 5;</code>
        * @param value The bytes for model to set.
        * @return This builder for chaining.
@@ -2236,7 +2548,7 @@ public final class FullLogin {
       "a.Browser\022\017\n\007version\030\004 \001(\t\022\r\n\005model\030\005 \001(" +
       "\t\032h\n\007Browser\022\014\n\004type\030\001 \001(\t\022\017\n\007version\030\002 " +
       "\001(\t\022\020\n\010language\030\003 \001(\t\022\r\n\005width\030\004 \001(\r\022\016\n\006" +
-      "height\030\005 \001(\r\022\r\n\005ratio\030\006 \001(\001b\006proto3"
+      "height\030\005 \001(\r\022\r\n\005ratio\030\006 \001(\002b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

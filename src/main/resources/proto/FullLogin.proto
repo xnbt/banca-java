@@ -3,18 +3,18 @@ syntax = "proto3";
 package annin_protocol;
 
 message LoginData {
-  string os = 1;
-  string language = 2;
+  string os = 1;           // "Windows"
+  string language = 2;     // "vi-VN"
   Browser browser = 3;
-  string version = 4;
-  string model = 5;
+  string version = 4;      // ""
+  string model = 5;        // ""
 
   message Browser {
-    string type = 1;
-    string version = 2;
-    string language = 3;
-    uint32 width = 4;
-    uint32 height = 5;
-    double ratio = 6;
+    string type = 1;         // "chrome"
+    string version = 2;      // "137.0.0.0"
+    string language = 3;     // ""
+    uint32 width = 4;        // 1366 — MUST be uint32
+    uint32 height = 5;       // 768  — MUST be uint32
+    float ratio = 6;         // 1.0 — MUST be float (NOT double)
   }
 }

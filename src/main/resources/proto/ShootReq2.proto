@@ -1,0 +1,31 @@
+syntax = "proto3";
+package protocol;
+
+message Point2 {
+  double x = 1;
+  double y = 2;
+}
+
+enum BulletType2 {
+  Normal = 0;
+  Lock = 1;
+  Dragon = 2;
+  DragonOther = 3;
+  Phoenix = 4;
+  Drill = 5;
+  Laser = 6;
+  Fire = 7;
+  Free = 20;
+  FreeDrill = 21;
+  FreeNet = 22;
+  Energy = 23;
+  FreeSpin = 24;
+}
+
+message ShootReq2 {
+  int32 bet = 1;
+  Point2 point = 2;
+  BulletType2 type = 3;
+  uint32 fishId = 4;
+  uint32 bulletId = 5;
+}

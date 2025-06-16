@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protocol;
+
+enum BulletType {
+  NORMAL = 0;
+  ENERGY = 1;
+  FIRE = 2;
+}

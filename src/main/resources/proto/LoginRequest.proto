@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package protocol;
+
+message LoginRequest {
+  string token = 1;
+  int32 game = 2;
+}

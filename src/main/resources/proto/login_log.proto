@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package annin_protocol;
+
+option java_package = "com.example.annin.protocol";
+option java_outer_classname = "LoginDataProto";
+
+// Define the browser message if it's not already defined
+message Browser {
+  // You must define this based on what `_r` represents
+  // For now, a placeholder
+  string name = 1;
+  string version = 2;
+}
+
+message LoginLogData {
+  string os = 1;         // T: 9 = string
+  string language = 2;   // T: 9 = string
+  Browser browser = 3;   // T: message = Browser (was _r in JS)
+  string version = 4;    // T: 9 = string
+  string model = 5;      // T: 9 = string
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protocol;
+
+import "LC.proto";
+
+message ShootAck {
+  ShootReq data = 1;
+  uint32 seat = 2;
+  float coin = 3;
+  float remain = 4;
+}

@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package protocol;
+
+// Import bullet type enum
+import "BulletType.proto";
+
+message HitAck {
+  uint32 seat = 1;
+  uint32 bulletId = 2;
+  BulletType bulletType = 3;
+  double bet = 4;
+  repeated Fish dead = 5;
+  double remain = 6;
+  Jackpot jackpot = 8;
+  double bonus = 9;
+
+  message Fish {
+    uint32 id = 1;
+    double coin = 2;
+  }
+
+  message Jackpot {
+    JackpotType type = 1;
+    double coin = 2;
+  }
+
+  enum JackpotType {
+    None = 0;
+    // Add other jackpot types as needed
+  }
+}
