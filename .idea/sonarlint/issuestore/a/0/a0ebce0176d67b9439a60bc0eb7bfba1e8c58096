@@ -1,15 +1,15 @@
 
-F
-java:S1444"+Make this "public static Multi" field final(–šÌÕøÿÿÿÿ
-E
-java:S1444"*Make this "public static Solo" field final(†ïßşÿÿÿÿ
-l
-java:S1104"QMake Multi a static final constant or non-public and provide accessors if needed.(–šÌÕøÿÿÿÿ
-k
-java:S1104"PMake Solo a static final constant or non-public and provide accessors if needed.(†ïßşÿÿÿÿ
-k
-java:S3008"PRename this field "Multi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–šÌÕøÿÿÿÿ
-j
-java:S3008"ORename this field "Solo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ïßşÿÿÿÿ
 P
 java:S1118":Add a private constructor to hide the implicit public one.(ùŠÿ…
+k
+java:S3008"PRename this field "Multi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–šÌÕøÿÿÿÿ
+F
+java:S1444"+Make this "public static Multi" field final(–šÌÕøÿÿÿÿ
+k
+java:S1104"PMake Solo a static final constant or non-public and provide accessors if needed.(†ïßşÿÿÿÿ
+E
+java:S1444"*Make this "public static Solo" field final(†ïßşÿÿÿÿ
+j
+java:S3008"ORename this field "Solo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ïßşÿÿÿÿ
+l
+java:S1104"QMake Multi a static final constant or non-public and provide accessors if needed.(–šÌÕøÿÿÿÿ

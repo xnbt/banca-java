@@ -1,0 +1,10 @@
+
+{
+java:S1845"^Rename field "TYPE" to prevent any misunderstanding/clash with field "type" defined on line 9.(æêÔÑ8§Ø¥Ñó2
+c
+java:S1192"FDefine a constant instead of duplicating this literal "point" 3 times.(·„·³8§Ø¥Ñó2
+k
+java:S1192"IDefine a constant instead of duplicating this literal "bulletId" 3 times.(Æ¨®¬úÿÿÿÿ8§Ø¥Ñó2
+d
+java:S1192"GDefine a constant instead of duplicating this literal "fishId" 3 times.(ŒúÚË8§Ø¥Ñó2
+C	java:S131H""Add a default case to this switch.(àĞŠ¹ıÿÿÿÿ8´»Ñó2

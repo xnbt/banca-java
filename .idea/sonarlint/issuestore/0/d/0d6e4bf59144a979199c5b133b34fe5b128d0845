@@ -1,29 +1,29 @@
 
-A
-java:S1199"-Extract this nested code block into a method.(ò‘
-d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
-h	java:S116"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
-H
-java:S1172"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
-A
-java:S1199"-Extract this nested code block into a method.(­Ó–Ô
-e
-java:S3252"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
-r
-java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
-T
-java:S1126"AReplace this if-then-else statement by a single return statement.(ûÿ½%
-h	java:S116"PRename this field "data_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ã¡ıøÿÿÿÿ
-w
-java:S4144"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 493.(€ëúš
-h	java:S116"PRename this field "data_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ã¡ıøÿÿÿÿ
-š
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
-c	java:S116"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ÿ³é
-e
-java:S3252"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
-F
-java:S1199"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
-T	java:S125"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
-c	java:S116"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ÿ™¸
-O	java:S125"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+e	java:S116W"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ÿ™¸
+h
+java:S3252”"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+R	java:S125¢"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+J
+java:S1172"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+W
+java:S1126¨"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252²"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+j	java:S116b"PRename this field "data_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ã¡ıøÿÿÿÿ
+k	java:S116ª"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+g	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+D
+java:S1199‘"-Extract this nested code block into a method.(­Ó–Ô
+u
+java:S1488•"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+I
+java:S1199›"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+W	java:S125¡"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+k	java:S116Ì"PRename this field "data_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ã¡ıøÿÿÿÿ
+z
+java:S4144¥"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 513.(€ëúš
+f	java:S116¬"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ÿ³é
+D
+java:S1199–"-Extract this nested code block into a method.(ò‘
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ

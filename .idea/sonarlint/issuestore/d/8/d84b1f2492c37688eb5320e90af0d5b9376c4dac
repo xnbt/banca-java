@@ -1,3 +1,20 @@
 
-D
-java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8áÞÍ„ë2
+K
+java:S1128")Remove this unused import 'protocol.Hit'.(óäš•úÿÿÿÿ8í£ƒâø2
+Y	java:S125Þ"<This block of commented-out lines of code should be removed.(ÊÆ÷…8Ð¢ö¶ù2
+X	java:S125"<This block of commented-out lines of code should be removed.(ÊÆ÷…8Ðªú¶ù2
+`
+java:S1128"DRemove this unused import 'org.omg.PortableServer.THREAD_POLICY_ID'.(Ïù—8Ð¢ö¶ù2
+_
+java:S1128"=Remove this unused import 'annin_protocol.CommandOuterClass'.(ˆÅåµùÿÿÿÿ8í£ƒâø2
+V	java:S106À"9Replace this use of System.out or System.err by a logger.(ŸŒôé8ƒ¶ñû2
+V	java:S106Ä"9Replace this use of System.out or System.err by a logger.(ÌÂÜú8ƒ¶ñû2
+^	java:S125Æ"<This block of commented-out lines of code should be removed.(“ý‡îýÿÿÿÿ8ƒ¶ñû2
+Y	java:S125É"<This block of commented-out lines of code should be removed.(¸œÒ8ƒ¶ñû2
+X	java:S125Ë"<This block of commented-out lines of code should be removed.(Ç»ñk8ƒ¶ñû2
+Y	java:S125Î"<This block of commented-out lines of code should be removed.(÷ý Ô8ƒ¶ñû2
+^	java:S125Ñ"<This block of commented-out lines of code should be removed.(Ó¾ä­üÿÿÿÿ8ƒ¶ñû2
+[	java:S106Ù"9Replace this use of System.out or System.err by a logger.(ô¥¤ùÿÿÿÿ8ƒ¶ñû2
+Y	java:S125ì"<This block of commented-out lines of code should be removed.(”¯Ôÿ8ƒ¶ñû2
+Y	java:S125ÿ"<This block of commented-out lines of code should be removed.(î¯ÔÉ8ƒ¶ñû2
+^	java:S125ƒ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ƒ¶ñû2

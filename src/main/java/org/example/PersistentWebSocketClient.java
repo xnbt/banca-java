@@ -4,6 +4,7 @@ import annin_protocol.CommandOuterClass;
 import annin_protocol.FullLogin;
 import annin_protocol.Misssion115;
 import com.google.protobuf.ByteString;
+import com.google.protobuf.InvalidProtocolBufferException;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 import org.json.JSONObject;
@@ -12,6 +13,7 @@ import protocol.*;
 import java.net.URI;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -83,18 +85,47 @@ public class PersistentWebSocketClient extends WebSocketClient {
 
     @Override
     public void onMessage(ByteBuffer message) {
+        CommandOuterClass.Command cmd = null;
         try {
-            CommandOuterClass.Command cmd = CommandOuterClass.Command.parseFrom(message.array());
+            cmd = CommandOuterClass.Command.parseFrom(message.array());
+        } catch (InvalidProtocolBufferException e) {
+            e.printStackTrace();
+        }
+
+        try{
+//            if (cmd.getType() == 28){
+//                List<FeatureOuterClass.Feature.FeatureItem> featureList = FeatureOuterClass.Feature.parseFrom(cmd.getData()).getListList();
+//                int bulletId = 1;
+//                for(FeatureOuterClass.Feature.FeatureItem feature : featureList){
+//                    float x = 123.7804462553622f; // You can change this to random or calculated positions
+//                    float y = -67.7804462553622f;
+//
+//                    System.out.println("Sending shoot/hit for fishId: " + feature.getNo());
+//
+//                    sendShootRequest(100, x, y, bulletId, feature.getNo(), ShootReqOuterClass.ShootType.NORMAL);
+//                    Thread.sleep(50);
+//                    sendHitRequest(bulletId, feature.getNo(), 1);
+//                    bulletId++;
+//                    Thread.sleep(200l); // Delay between requests
+//                }
+//
+//                System.out.println("parse feature done!");
+//            }
+        }catch (Exception e){
+            System.out.println("parse feature failure " + e.getMessage());
+        }
+
+
+        try {
             if (cmd.getType() == 25) { // S2U_HIT_ACK
-                System.out.println("Hit ACK receiver: ");
                 HitAckOuterClass.HitAck hitAck = HitAckOuterClass.HitAck.parseFrom(cmd.getData());
-                System.out.println("Hit ACK data: " + hitAck);
-                System.out.printf("[←] Received HIT_ACK (type=25): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, bonus=%.2f%n",
-                        hitAck.getSeat(), hitAck.getBulletId(), hitAck.getBet(), hitAck.getRemain(), hitAck.getBonus());
+           //     System.out.println("Hit ACK data: " + hitAck);
+             //   System.out.printf("[←] Received HIT_ACK (type=25): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, bonus=%.2f%n",
+               //         hitAck.getSeat(), hitAck.getBulletId(), hitAck.getBet(), hitAck.getRemain(), hitAck.getBonus());
 
                 // Print dead fish info
                 for (HitAckOuterClass.HitAck.Fish fish : hitAck.getDeadList()) {
-                    System.out.printf("    Dead fish: id=%d, coin=%.2f%n", fish.getId(), fish.getCoin());
+              //      System.out.printf("    Dead fish: id=%d, coin=%.2f%n", fish.getId(), fish.getCoin());
                 }
 
                 // Print jackpot info if exists
@@ -110,12 +141,11 @@ public class PersistentWebSocketClient extends WebSocketClient {
         }
 
         try {
-            CommandOuterClass.Command cmd = CommandOuterClass.Command.parseFrom(message.array());
             if (cmd.getType() == 23) {
 
                 ShootAckOuterClass.ShootAck shootAck = ShootAckOuterClass.ShootAck.parseFrom(message.array());
-                System.out.printf("[←] Received SHOOT_NOTIFY (type=23): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, fishId=%d%n",
-                        shootAck.getSeat(), shootAck.getRemain());
+           //     System.out.printf("[←] Received SHOOT_NOTIFY (type=23): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, fishId=%d%n",
+               //         shootAck.getSeat(), shootAck.getRemain());
 
 
                 // Wait a bit before sending next request
@@ -229,28 +259,6 @@ public class PersistentWebSocketClient extends WebSocketClient {
         }
     }
 
-    public void sendShootRequest2(double bet, double x, double y, int bulletId, int fishId, int bulletType) {
-        try {
-            JSONObject shootData = new JSONObject();
-            shootData.put("bet", bet);
-
-            JSONObject point = new JSONObject();
-            point.put("x", x);
-            point.put("y", y);
-            shootData.put("point", point);
-
-            shootData.put("bulletId", bulletId);
-            shootData.put("fishId", fishId);
-            shootData.put("type", bulletType);
-
-            ByteBuffer buffer = createMessage(U2S_SHOOT_REQ, shootData);
-            this.send(buffer);
-
-            System.out.println("Sent shoot request");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     private ByteBuffer createMessage(int type, JSONObject data) {
         try {
@@ -641,8 +649,7 @@ public class PersistentWebSocketClient extends WebSocketClient {
             public void run() {
                 if (isOpen()) {
                     sendPing1();
-                    sendU2S_VIP_EXP_REQ();
-                    System.out.println("Send ping ok");
+                  //  System.out.println("Send ping ok");
                 }
             }
         }, 5000, 5000);

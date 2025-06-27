@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package protocol;
+
+// Main message corresponding to IT (protocol.Feature)
+message Feature {
+  repeated FeatureItem list = 1;
+
+  // Nested message corresponding to ZT (protocol.Feature.Feature)
+  message FeatureItem {
+    int32 no = 1;
+    Type type = 2;
+  }
+
+  // Enum corresponding to QT (protocol.Feature.Type)
+  enum Type {
+    Wind = 0;
+    Lightning = 1;
+  }
+}

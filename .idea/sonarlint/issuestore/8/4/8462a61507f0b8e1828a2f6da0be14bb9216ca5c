@@ -1,0 +1,121 @@
+
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
+J
+java:S1172"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+P
+java:S1199Ö"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ8İÙËÌô2
+K
+java:S1199Û"-Extract this nested code block into a method.(ò‘8İÙËÌô2
+P
+java:S1199à"-Extract this nested code block into a method.(­ƒíéşÿÿÿÿ8İÙËÌô2
+P
+java:S1199å"-Extract this nested code block into a method.(ÙšÖ­ùÿÿÿÿ8İÙËÌô2
+P
+java:S1199ê"-Extract this nested code block into a method.(­™Üıÿÿÿÿ8İÙËÌô2
+P
+java:S1199ï"-Extract this nested code block into a method.(™Œ¬ªüÿÿÿÿ8İÙËÌô2
+P
+java:S1199ô"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ8İÙËÌô2
+P
+java:S1199–"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ8İÙËÌô2
+K
+java:S1199›"-Extract this nested code block into a method.(ò‘8İÙËÌô2
+P
+java:S1199 "-Extract this nested code block into a method.(­ƒíéşÿÿÿÿ8İÙËÌô2
+P
+java:S1199§"-Extract this nested code block into a method.(ì¼Â©ûÿÿÿÿ8İÙËÌô2
+K
+java:S1199¬"-Extract this nested code block into a method.(¾ø‚©8İÙËÌô2
+P
+java:S1199±"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ8İÙËÌô2
+R
+java:S1066ò"/Merge this if statement with the enclosing one.(Ö×¯ÿÿÿÿÿ8İÙËÌô2
+n	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€8İÙËÌô2
+n	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€8İÙËÌô2
+s	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤¢öøÿÿÿÿ8İÙËÌô2
+|
+java:S1488¸"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~8İÙËÌô2
+|
+java:S1488î"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~8İÙËÌô2
+‡
+java:S4144Ø"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 2484.(¯ŸÀÂÿÿÿÿÿ8İÙËÌô2
+z
+java:S3077Ó
+"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(İÈÂ‘ÿÿÿÿÿ8İÙËÌô2
+u
+java:S3077‚"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(šİ•”8İÙËÌô2
+z
+java:S3077Ë"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÎÁ ıÿÿÿÿ8İÙËÌô2
+u
+java:S3077ú"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(µºç²8İÙËÌô2
+r	java:S116Ğ
+"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8İÙËÌô2
+p	java:S116Ó
+"NRename this field "os_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÈÂ‘ÿÿÿÿÿ8İÙËÌô2
+q	java:S116‚"TRename this field "language_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šİ•”8İÙËÌô2
+p	java:S116°"SRename this field "browser_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üı¸8İÙËÌô2
+u	java:S116Ë"SRename this field "version_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÁ ıÿÿÿÿ8İÙËÌô2
+n	java:S116ú"QRename this field "model_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µºç²8İÙËÌô2
+H
+java:S1948Ó
+"%Make "os_" transient or serializable.(İÈÂ‘ÿÿÿÿÿ8İÙËÌô2
+I
+java:S1948‚"+Make "language_" transient or serializable.(šİ•”8İÙËÌô2
+M
+java:S1948Ë"*Make "version_" transient or serializable.(ÎÁ ıÿÿÿÿ8İÙËÌô2
+F
+java:S1948ú"(Make "model_" transient or serializable.(µºç²8İÙËÌô2
+‚
+java:S4144Ê
+"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 1318.(›ë›ƒ8İÙËÌô2
+u
+java:S3077°"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Õ¿ğ8İÙËÌô2
+z
+java:S3077ß"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÎÁ ıÿÿÿÿ8İÙËÌô2
+u
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(šİ•”8İÙËÌô2
+m	java:S116°"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¿ğ8İÙËÌô2
+u	java:S116ß"SRename this field "version_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÁ ıÿÿÿÿ8İÙËÌô2
+q	java:S116"TRename this field "language_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šİ•”8İÙËÌô2
+n	java:S116¼"QRename this field "width_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯é‹°8İÙËÌô2
+o	java:S116Ë"RRename this field "height_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÉãÃ8İÙËÌô2
+s	java:S116Ú"QRename this field "ratio_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ò¨´ıÿÿÿÿ8İÙËÌô2
+E
+java:S1948°"'Make "type_" transient or serializable.(Õ¿ğ8İÙËÌô2
+M
+java:S1948ß"*Make "version_" transient or serializable.(ÎÁ ıÿÿÿÿ8İÙËÌô2
+I
+java:S1948"+Make "language_" transient or serializable.(šİ•”8İÙËÌô2
+^
+java:S1126Â"AReplace this if-then-else statement by a single return statement.(ûÿ½%8İÙËÌô2
+o
+java:S3252·"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾8İÙËÌô2
+r	java:S116ƒ"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8İÙËÌô2
+m	java:S116…"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¢³¸8İÙËÌô2
+u	java:S116á"SRename this field "version_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç˜…Õùÿÿÿÿ8İÙËÌô2
+q	java:S116½"TRename this field "language_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ô”8İÙËÌô2
+n	java:S116™	"QRename this field "width_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÜ¹¡8İÙËÌô2
+o	java:S116Å	"RRename this field "height_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÓÿ¦8İÙËÌô2
+n	java:S116ñ	"QRename this field "ratio_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­©Ú8İÙËÌô2
+o
+java:S3252Õ"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾8İÙËÌô2
+^	java:S125ú"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ8İÙËÌô2
+Y	java:S125û"<This block of commented-out lines of code should be removed.(¯Ë¶‡8İÙËÌô2
+^
+java:S1126ù"AReplace this if-then-else statement by a single return statement.(ûÿ½%8İÙËÌô2
+o
+java:S3252í"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾8İÙËÌô2
+r	java:S116À"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä8İÙËÌô2
+p	java:S116Â"NRename this field "os_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«°Àœşÿÿÿÿ8İÙËÌô2
+q	java:S116"TRename this field "language_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Ô”8İÙËÌô2
+p	java:S116ú"SRename this field "browser_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üı¸8İÙËÌô2
+|	java:S116ü"ZRename this field "browserBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èÿ÷Şùÿÿÿÿ8İÙËÌô2
+u	java:S116ó"SRename this field "version_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç˜…Õùÿÿÿÿ8İÙËÌô2
+n	java:S116Ï"QRename this field "model_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÏ8İÙËÌô2
+o
+java:S3252‹"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾8İÙËÌô2
+^	java:S125·"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ8İÙËÌô2
+Y	java:S125¸"<This block of commented-out lines of code should be removed.(¯Ë¶‡8İÙËÌô2
+|
+java:S2293é"YReplace the type specification in this constructor call with the diamond operator ("<>").(×øØæüÿÿÿÿ8İÙËÌô2

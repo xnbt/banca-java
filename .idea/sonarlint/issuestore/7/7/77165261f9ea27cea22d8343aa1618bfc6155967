@@ -1,0 +1,116 @@
+
+I
+java:S1199ä"-Extract this nested code block into a method.(ÿÅÖ²ÿÿÿÿÿ
+I
+java:S1199é"-Extract this nested code block into a method.(ƒüÿìıÿÿÿÿ
+I
+java:S1199î"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199€
+"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199…
+"-Extract this nested code block into a method.(ò‘
+I
+java:S1199Œ
+"-Extract this nested code block into a method.(”¤óˆüÿÿÿÿ
+I
+java:S1199‘
+"-Extract this nested code block into a method.(ÙšÖ­ùÿÿÿÿ
+I
+java:S1199–
+"-Extract this nested code block into a method.(­™Üıÿÿÿÿ
+I
+java:S1199›
+"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+F
+java:S1066ã"/Merge this if statement with the enclosing one.(€ÈùÙ
+g	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117´	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+l	java:S117¸	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤¢öøÿÿÿÿ
+D
+java:S1604Æ"(Make this anonymous inner class a lambda(á½„úÿÿÿÿ
+u
+java:S1488è"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488à"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
+J
+java:S1172"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+t	java:S115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…û¥ÿÿÿÿÿ
+o	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–«’Ë
+o	java:S115,"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÅÙ§»
+o	java:S1150"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú¸ü
+t	java:S1154"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷ÚšÜùÿÿÿÿ
+t	java:S1158"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿ„¾¨ıÿÿÿÿ
+t	java:S115<"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¨·Ô¾şÿÿÿÿ
+o	java:S115@"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÀĞí
+o	java:S115D"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ØûŞ
+t	java:S115H"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»é¯¶ıÿÿÿÿ
+t	java:S115L"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²î—†üÿÿÿÿ
+o	java:S115P"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÒŠá•
+o	java:S115T"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôíÎ
+o	java:S115d"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÛˆşŠ
+t	java:S115h"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ü¤ ¸ÿÿÿÿÿ
+t	java:S115l"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²ãğÒÿÿÿÿÿ
+n	java:S115p"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ş¦Ù_
+t	java:S115t"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ßËœĞıÿÿÿÿ
+o	java:S115x"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ù–†²
+o	java:S115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šÂà¼
+u	java:S115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(êğ•Ëûÿÿÿÿ
+o	java:S115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áœ³A
+u	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(’ù‚Ãúÿÿÿÿ
+p	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Êä±„
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Àªƒıÿÿÿÿ
+p	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óôÕ
+Q
+java:S1133¥"5Do not forget to remove this deprecated code someday.(øÉ‰€ıÿÿÿÿ
+C
+java:S1123¥"'Add the missing @Deprecated annotation.(øÉ‰€ıÿÿÿÿ
+z
+java:S4144ì"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 712.(ÑÚÆ½
+c	java:S116ª"MRename this field "x_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Èí„
+h	java:S116µ"MRename this field "y_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¸¯ûÿÿÿÿ
+W
+java:S1126ù"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252ç"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116ı"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+c	java:S116ÿ"MRename this field "x_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ï¦½
+h	java:S116Ÿ"MRename this field "y_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äüş©úÿÿÿÿ
+h
+java:S3252…"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+W	java:S125ô"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125õ"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+€
+java:S4144ç"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 1603.(¼ˆ´®ıÿÿÿÿ
+k	java:S116È"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+j	java:S116Ê"ORename this field "bet_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°„­äúÿÿÿÿ
+l	java:S116Õ"QRename this field "point_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¸¸Ìûÿÿÿÿ
+f	java:S116ï"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ÿ™¸
+m	java:S116"RRename this field "fishId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Óñ ıÿÿÿÿ
+j	java:S116Œ"TRename this field "bulletId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÒûÔ
+W
+java:S1126ë"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252ß"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116ª
+"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+j	java:S116¬
+"ORename this field "bet_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¸¬şÿÿÿÿ
+l	java:S116Ì
+"QRename this field "point_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¸¸Ìûÿÿÿÿ
+n	java:S116Î
+"XRename this field "pointBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şƒÉ
+f	java:S116Å"PRename this field "type_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ÿ™¸
+m	java:S116ú"RRename this field "fishId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§âÜ÷ıÿÿÿÿ
+o	java:S116š"TRename this field "bulletId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿó×²ùÿÿÿÿ
+h
+java:S3252ı"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+W	java:S125¡
+"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125¢
+"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+u
+java:S2293»"YReplace the type specification in this constructor call with the diamond operator ("<>").(ıñÉìÿÿÿÿÿ
