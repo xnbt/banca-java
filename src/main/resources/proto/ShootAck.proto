@@ -2,11 +2,12 @@ syntax = "proto3";
 
 package protocol;
 
-import "LC.proto";
-
 message ShootAck {
-  ShootReq data = 1;
-  uint32 seat = 2;
-  float coin = 3;
-  float remain = 4;
+  int32 seat = 1;         // Player seat or ID
+  int32 bulletId = 2;     // Bullet identifier
+  float bet = 3;          // Bet amount for this shot
+  float remain = 4;       // Remaining balance after shot
+  int32 fishId = 5;       // Targeted fishId (optional)
+  float odds = 6;         // Odds for the shot (optional)
+  // Add more fields as needed by your game
 }

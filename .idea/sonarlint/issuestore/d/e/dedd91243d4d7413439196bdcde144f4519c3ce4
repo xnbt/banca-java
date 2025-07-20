@@ -1,0 +1,419 @@
+
+]
+java:S1192ïA"FDefine a constant instead of duplicating this literal "Delay" 3 times.(¨ñÛĞ
+]
+java:S1192ÑA"GDefine a constant instead of duplicating this literal "Random" 3 times.(ç´ô
+`
+java:S1192ïA"IDefine a constant instead of duplicating this literal "Duration" 3 times.(¨ñÛĞ
+I
+java:S1199Ö"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+D
+java:S1199ã"-Extract this nested code block into a method.(ò‘
+I
+java:S1199ğ"-Extract this nested code block into a method.(­ƒíéşÿÿÿÿ
+I
+java:S1199ı"-Extract this nested code block into a method.(ì¼Â©ûÿÿÿÿ
+I
+java:S1199Š"-Extract this nested code block into a method.(­™Üıÿÿÿÿ
+I
+java:S1199"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199†"-Extract this nested code block into a method.(ò‘
+I
+java:S1199“"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+I
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+I
+java:S1199¸"-Extract this nested code block into a method.(ê×Êüÿÿÿÿ
+D
+java:S1199½"-Extract this nested code block into a method.(İ…î½
+D
+java:S1199Ã"-Extract this nested code block into a method.(ò‘
+I
+java:S1199Í"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199û"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199€"-Extract this nested code block into a method.(ò‘
+I
+java:S1199"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199×$"-Extract this nested code block into a method.(­Ó–Ô
+I
+java:S1199Ü$"-Extract this nested code block into a method.(•€Éœıÿÿÿÿ
+I
+java:S1199á$"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199ı)"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199‚*"-Extract this nested code block into a method.(ò‘
+D
+java:S1199*"-Extract this nested code block into a method.(ÜØ¯ì
+C
+java:S1199”*"-Extract this nested code block into a method.(Ô§ù
+
+I
+java:S1199™*"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199±1"-Extract this nested code block into a method.(­Ó–Ô
+D
+java:S1199¶1"-Extract this nested code block into a method.(İ…î½
+I
+java:S1199»1"-Extract this nested code block into a method.(”¤óˆüÿÿÿÿ
+C
+java:S1199À1"-Extract this nested code block into a method.(Ô§ù
+
+I
+java:S1199Å1"-Extract this nested code block into a method.(­™Üıÿÿÿÿ
+D
+java:S1199Ê1"-Extract this nested code block into a method.(†èÚö
+I
+java:S1199Ï1"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199Æ7"-Extract this nested code block into a method.(­Ó–Ô
+I
+java:S1199Ë7"-Extract this nested code block into a method.(•€Éœıÿÿÿÿ
+I
+java:S1199Ğ7"-Extract this nested code block into a method.(­ƒíéşÿÿÿÿ
+I
+java:S1199İ7"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+D
+java:S1199Ü>"-Extract this nested code block into a method.(…ß¾£
+I
+java:S1199á>"-Extract this nested code block into a method.(•€Éœıÿÿÿÿ
+D
+java:S1199æ>"-Extract this nested code block into a method.(ÜØ¯ì
+C
+java:S1199ë>"-Extract this nested code block into a method.(Ô§ù
+
+I
+java:S1199ğ>"-Extract this nested code block into a method.(­™Üıÿÿÿÿ
+I
+java:S1199õ>"-Extract this nested code block into a method.(™Œ¬ªüÿÿÿÿ
+I
+java:S1199ú>"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+Z
+java:S1155Š">Use isEmpty() to check whether the collection is empty or not.(©ÚÏúÿÿÿÿ
+g	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117¢$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117¨)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117ä0"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117÷6"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+g	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+u
+java:S1488±"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488Ú"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488­"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488Ô"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488×#"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488È("_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488•0"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488˜6"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+u
+java:S1488À="_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
+J
+java:S1172"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+<
+java:S14520"&Remove usage of generic wildcard type.(ËÂöŸ
+;
+java:S1452H"&Remove usage of generic wildcard type.( ¦ª
+<
+java:S1452`"&Remove usage of generic wildcard type.(«¬Åı
+<
+java:S1452x"&Remove usage of generic wildcard type.(¦‘Ê›
+x
+java:S4144Â"\Update this method so that its implementation is not identical to "getMainList" on line 186.(Ø£µñşÿÿÿÿ
+z
+java:S4144ë"^Update this method so that its implementation is not identical to "getRandomList" on line 227.(·Àî©üÿÿÿÿ
+y
+java:S4144”"]Update this method so that its implementation is not identical to "getGroupList" on line 268.(“ ù³úÿÿÿÿ
+x
+java:S4144½"\Update this method so that its implementation is not identical to "getPathList" on line 309.(Ïôºƒşÿÿÿÿ
+€
+java:S4144­"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 1929.(–Ó¸şÿÿÿÿ
+k	java:S116µ"PRename this field "main_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ø’Àùÿÿÿÿ
+m	java:S116Ş"RRename this field "random_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½£ñôúÿÿÿÿ
+g	java:S116‡"QRename this field "group_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŒüÉ
+k	java:S116°"PRename this field "path_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õµ«ôùÿÿÿÿ
+i	java:S116Ø"SRename this field "version_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Î³
+W
+java:S1126µ"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252°"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+e	java:S116 "PRename this field "main_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( —Î
+r	java:S116ª"WRename this field "mainBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ØıŸşÿÿÿÿ
+h	java:S116	"RRename this field "random_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â²éœ
+t	java:S116š	"YRename this field "randomBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÍ±Ìùÿÿÿÿ
+l	java:S116€"QRename this field "group_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹é“üÿÿÿÿ
+s	java:S116Š"XRename this field "groupBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¶†îúÿÿÿÿ
+f	java:S116ğ"PRename this field "path_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß«ßÛ
+r	java:S116ú"WRename this field "pathBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü şóÿÿÿÿÿ
+n	java:S116à"SRename this field "version_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÎ‡ÿÿÿÿÿ
+h
+java:S3252Ò"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+i
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(®öâ¯
+n
+java:S3776Ï"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(€İ¹§úÿÿÿÿ
+n
+java:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(˜œö¾ûÿÿÿÿ
+W	java:S125•"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125–"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+@
+java:S1940£")Use the opposite operator ("==") instead.(¦ÁÕ“
+p
+java:S2293¤"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÛŸĞ¬
+p
+java:S2293…	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ù¢¡ë
+E
+java:S1940“	")Use the opposite operator ("==") instead.(Ûû¨†ùÿÿÿÿ
+p
+java:S2293”	"YReplace the type specification in this constructor call with the diamond operator ("<>").(îƒª
+p
+java:S2293õ
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ß´›€
+@
+java:S1940ƒ")Use the opposite operator ("==") instead.(œüìé
+p
+java:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(´•Ú‚
+u
+java:S2293å"YReplace the type specification in this constructor call with the diamond operator ("<>").(–ÈÓ›ıÿÿÿÿ
+E
+java:S1940ó")Use the opposite operator ("==") instead.(ÆÕÕûÿÿÿÿ
+p
+java:S2293ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÓæ
+u
+java:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾÷ã†øÿÿÿÿ
+<
+java:S1452Í"&Remove usage of generic wildcard type.(¦€Ú\
+|
+java:S4144™"`Update this method so that its implementation is not identical to "getRandomsList" on line 2065.(ŞêåÂşÿÿÿÿ
+{
+java:S4144á"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 2749.(®õË
+i	java:S116€"NRename this field "no_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÜ¥®ùÿÿÿÿ
+h	java:S116Œ"SRename this field "randoms_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôóÈN
+W
+java:S1126ë"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252Ù"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116¢"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+i	java:S116¤"NRename this field "no_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¸Õ¯ÿÿÿÿÿ
+n	java:S116Ä"SRename this field "randoms_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÕÉğÿÿÿÿÿ
+p	java:S116Î"ZRename this field "randomsBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á·¤Ä
+h
+java:S3252û"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+n
+java:S3776È"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(«å¦½şÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125š"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+E
+java:S1940Ç")Use the opposite operator ("==") instead.(Ûû¨†ùÿÿÿÿ
+p
+java:S2293È"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê ¯
+u
+java:S2293©"YReplace the type specification in this constructor call with the diamond operator ("<>").(­Ë©“şÿÿÿÿ
+€
+java:S4144§"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 3459.(•¶áÛÿÿÿÿÿ
+s
+java:S3077µ"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(¬î²¯øÿÿÿÿ
+k	java:S116µ"PRename this field "name_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬î²¯øÿÿÿÿ
+m	java:S116Ü"RRename this field "random_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×›’şşÿÿÿÿ
+C
+java:S1948µ"'Make "name_" transient or serializable.(¬î²¯øÿÿÿÿ
+E
+java:S1948Ü")Make "random_" transient or serializable.(×›’şşÿÿÿÿ
+W
+java:S1126¾"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252¬"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116Ü"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+e	java:S116Ş"PRename this field "name_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñœã/
+h	java:S116¦"RRename this field "random_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÂ“Ä
+h
+java:S3252Î"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+=
+java:S1452Ç"&Remove usage of generic wildcard type.(ÓÅ°‚
+{
+java:S4144“"_Update this method so that its implementation is not identical to "getRandomList" on line 3595.(·Àî©üÿÿÿÿ
+€
+java:S4144Û!"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 4279.(»‰ô’ûÿÿÿÿ
+i	java:S116ú"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñ…úøÿÿÿÿ
+m	java:S116†"RRename this field "random_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‚ ¹şÿÿÿÿ
+W
+java:S1126å"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252Ó"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116œ"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+d	java:S116"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+m	java:S116¾"RRename this field "random_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ú¾ºüÿÿÿÿ
+t	java:S116È"YRename this field "randomBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÿ¤ûşÿÿÿÿ
+h
+java:S3252õ"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+i
+java:S3776Â"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(âöø¾
+W	java:S125“"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125”"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+E
+java:S1940Á")Use the opposite operator ("==") instead.(Ûû¨†ùÿÿÿÿ
+p
+java:S2293Â"YReplace the type specification in this constructor call with the diamond operator ("<>").(´ÁÌÚ
+p
+java:S2293£!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ß´›€
+€
+java:S4144ß%"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 4795.(Ñ©æÕüÿÿÿÿ
+i	java:S116›""NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñ…úøÿÿÿÿ
+f	java:S116¦""PRename this field "rate_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¬êê
+W
+java:S1126é""AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252Ö#"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116ğ$"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+d	java:S116ò$"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+f	java:S116’%"PRename this field "rate_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğßËø
+h
+java:S3252ø#"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+W	java:S125ç$"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125è$"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+=
+java:S1452ÿ%"&Remove usage of generic wildcard type.(ÑÆğ
+t
+java:S4144×&"]Update this method so that its implementation is not identical to "getFishList" on line 4943.(³šéÎ
+€
+java:S4144§-"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 5763.(€Œº»ıÿÿÿÿ
+i	java:S116¾&"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñ…úøÿÿÿÿ
+f	java:S116Ê&"PRename this field "fish_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌŞÿÊ
+j	java:S116ò&"TRename this field "duration_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÅÀ
+l	java:S116ı&"QRename this field "delay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÿïùÿÿÿÿ
+W
+java:S1126Ó'"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252Ç("QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116¨*"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+d	java:S116ª*"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+f	java:S116Ê*"PRename this field "fish_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìòïË
+m	java:S116Ô*"WRename this field "fishBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì–ø’
+j	java:S116º,"TRename this field "duration_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄìÓÉ
+l	java:S116Ú,"QRename this field "delay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÊûûÿÿÿÿ
+h
+java:S3252é("QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+n
+java:S3776¾)"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(·ºÁÁûÿÿÿÿ
+W	java:S125Ÿ*"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125 *"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+E
+java:S1940Í*")Use the opposite operator ("==") instead.(Ûû¨†ùÿÿÿÿ
+p
+java:S2293Î*"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥›ÛÁ
+u
+java:S2293¯,"YReplace the type specification in this constructor call with the diamond operator ("<>").(ê†·²ÿÿÿÿÿ
+{
+java:S4144Í3"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 6569.(¶Ó“©
+i	java:S116ÿ-"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñ…úøÿÿÿÿ
+k	java:S116Š."PRename this field "fish_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÑèÙøÿÿÿÿ
+k	java:S116•."PRename this field "path_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÓäŸüÿÿÿÿ
+l	java:S116 ."QRename this field "delay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÿïùÿÿÿÿ
+f	java:S116«."PRename this field "flip_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€°ñó
+m	java:S116¶."RRename this field "mirror_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ã•±ÿÿÿÿÿ
+@
+java:S1125Ú.")Remove the literal "false" boolean value.(¼ÏâÆ
+E
+java:S1125İ.")Remove the literal "false" boolean value.(È´ƒıÿÿÿÿ
+@
+java:S1125ù.")Remove the literal "false" boolean value.(¼ÏâÆ
+E
+java:S1125ı.")Remove the literal "false" boolean value.(È´ƒıÿÿÿÿ
+W
+java:S1126/"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252”0"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116Ş1"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+d	java:S116à1"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+f	java:S116€2"PRename this field "fish_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í—èü
+k	java:S116 2"PRename this field "path_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¹óúûÿÿÿÿ
+l	java:S116À2"QRename this field "delay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÊûûÿÿÿÿ
+k	java:S116à2"PRename this field "flip_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øò¦Öøÿÿÿÿ
+m	java:S116€3"RRename this field "mirror_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûöª©ûÿÿÿÿ
+h
+java:S3252¶0"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+E
+java:S1125‘1")Remove the literal "false" boolean value.(ˆ•Óıÿÿÿÿ
+E
+java:S1125”1")Remove the literal "false" boolean value.(ÉÅ×¶ıÿÿÿÿ
+W	java:S125Õ1"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125Ö1"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+=
+java:S1452ó3"&Remove usage of generic wildcard type.(÷–ğü
+z
+java:S4144Ê4"^Update this method so that its implementation is not identical to "getPointList" on line 6722.(ùìá¡ıÿÿÿÿ
+{
+java:S4144Ë:"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 7463.(èÁ÷ñ
+i	java:S116¦4"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñ…úøÿÿÿÿ
+j	java:S116±4"TRename this field "duration_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÅÀ
+l	java:S116½4"QRename this field "point_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÌ·øÿÿÿÿ
+W
+java:S1126¦5"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252—6"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116ì7"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+d	java:S116î7"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+j	java:S1168"TRename this field "duration_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄìÓÉ
+l	java:S116®8"QRename this field "point_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ïìùùÿÿÿÿ
+n	java:S116¸8"XRename this field "pointBuilder_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‡ö›
+h
+java:S3252¹6"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+n
+java:S3776Š7"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(–ğ½½ûÿÿÿÿ
+W	java:S125ã7"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125ä7"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+@
+java:S1940±8")Use the opposite operator ("==") instead.(œüìé
+p
+java:S2293²8"YReplace the type specification in this constructor call with the diamond operator ("<>").(á÷´ü
+u
+java:S2293“:"YReplace the type specification in this constructor call with the diamond operator ("<>").(ò¢í£øÿÿÿÿ
+z
+java:S4144ø@"dUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 8276.(Õß™u
+c	java:S116£;"MRename this field "x_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İšŞ
+b	java:S116®;"MRename this field "y_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö’ƒJ
+j	java:S116¹;"TRename this field "duration_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÅÀ
+l	java:S116Ä;"QRename this field "delay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÿïùÿÿÿÿ
+j	java:S116Ï;"TRename this field "isSpline_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö²¬£
+j	java:S116Ú;"TRename this field "distance_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ÷¨Î
+@
+java:S1125ş;")Remove the literal "false" boolean value.(Øä©Ì
+@
+java:S1125<")Remove the literal "false" boolean value.(Øä©Ì
+W
+java:S1126Å<"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252¿="QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116‰?"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+h	java:S116‹?"MRename this field "x_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îˆ©€úÿÿÿÿ
+h	java:S116«?"MRename this field "y_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÂÛâûÿÿÿÿ
+j	java:S116Ë?"TRename this field "duration_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄìÓÉ
+l	java:S116ë?"QRename this field "delay_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÊûûÿÿÿÿ
+i	java:S116‹@"TRename this field "isSpline_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–óœ
+o	java:S116«@"TRename this field "distance_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¼ºøüÿÿÿÿ
+h
+java:S3252á="QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+@
+java:S1125¼>")Remove the literal "false" boolean value.(³á±ñ
+W	java:S125€?"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125?"<This block of commented-out lines of code should be removed.(¯Ë¶‡

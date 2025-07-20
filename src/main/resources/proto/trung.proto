@@ -1,0 +1,12 @@
+syntax = "proto3";
+package fish;
+
+message Trung {
+  int32 field1 = 1;
+  int32 field2 = 2;
+  int32 field3 = 3;
+  float field4 = 4;
+}
+message Trung2 {
+  repeated Trung unknowns = 2;
+}

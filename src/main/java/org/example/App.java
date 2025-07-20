@@ -1,57 +1,56 @@
 package org.example;
 
 import annin_protocol.CommandOuterClass;
+import fish.FishOuterClass;
+import fish.TrungOuterClass;
 import protocol.LC;
 
+import javax.swing.plaf.RootPaneUI;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
         byte[] binaryData = new byte[0];
         try {
             // Đọc file chứa protobuf binary
-            FileInputStream fis = new FileInputStream("src/main/resources/bin/command.bin");
-            CommandOuterClass.Command cmd = CommandOuterClass.Command.parseFrom(fis);
+            FileInputStream fis = new FileInputStream("C:\\Users\\Donald Trung\\Desktop\\ddos\\webgame\\wgame\\fish2\\11");
+            FishOuterClass.Script script = FishOuterClass.Script.parseFrom(fis);
 
-            // In ra thông tin
-            System.out.println("Type: " + cmd.getType());
-            binaryData = cmd.getData().toByteArray();
+            // Build a map from path id to PathData for quick lookup
+            Map<Integer, FishOuterClass.PathData> pathMap = new HashMap<>();
+            for (FishOuterClass.PathData path : script.getPathList()) {
+                pathMap.put(path.getId(), path);
+            }
 
-            System.out.println("Payload (hex): " + bytesToHex(cmd.getData().toByteArray()));
+            for (FishOuterClass.GroupData group : script.getGroupList()) {
+                for (FishOuterClass.Fish fish : group.getFishList()) {
+                    int fishNo = fish.getFish();
+                    if (fishNo == 1 || fishNo == 2) {
+                        int fishId = fish.getId();
+                        int pathId = fish.getPath();
+                        double x = Double.NaN, y = Double.NaN;
+
+                        // Get the first point of the path, if available
+                        FishOuterClass.PathData pathData = pathMap.get(pathId);
+                        if (pathData != null && pathData.getPointCount() > 0) {
+                            FishOuterClass.Point point = pathData.getPoint(0);
+                            x = point.getX();
+                            y = point.getY();
+                        }
+
+                        System.out.printf("fishId: %d, x: %f, y: %f, fishNo: %d%n", fishId, x, y, fishNo);
+                    }
+                }
+            }
+
+            System.out.println("done");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-
-        try {
-            FileInputStream fis = new FileInputStream("src/main/resources/bin/lc-shoot-notify.bin");
-
-            LC.ShootNotify lc = LC.ShootNotify.parseFrom(fis);
-
-            System.out.println("Seat: " + lc.getSeat());
-            System.out.println("Coin: " + lc.getCoin());
-            System.out.println("Remain: " + lc.getRemain());
-
-            LC.ShootReq data = lc.getData();
-            System.out.println("Bullet ID: " + data.getBulletId());
-            System.out.println("Fish ID: " + data.getFishId());
-            System.out.println("Bet: " + data.getBet());
-            System.out.println("Type: " + data.getType());
-
-            LC.Point pt = data.getPoint();
-            System.out.println("Point: (" + pt.getX() + ", " + pt.getY() + ")");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static String bytesToHex(byte[] bytes) {
-        StringBuilder sb = new StringBuilder();
-        for (byte b : bytes) {
-            sb.append(String.format("%02X ", b));
-        }
-        return sb.toString();
     }
 }

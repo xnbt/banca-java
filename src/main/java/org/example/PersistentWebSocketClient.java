@@ -5,6 +5,7 @@ import annin_protocol.FullLogin;
 import annin_protocol.Misssion115;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
+import fish.TimeLine;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 import org.json.JSONObject;
@@ -13,11 +14,12 @@ import protocol.*;
 import java.net.URI;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 
 public class PersistentWebSocketClient extends WebSocketClient {
+
+    private final Queue<List<Map<String, Object>>> pendingBatches = new LinkedList<>();
+    private boolean isProcessingBatch = false;
 
     private final URI uri;
     private int retryCount = 0;
@@ -43,6 +45,7 @@ public class PersistentWebSocketClient extends WebSocketClient {
     private static final int S2U_SHOOT_NOTIFY = 23;
     private static final int S2U_SHOOT_CANCEL = 24;
     private static final int S2U_HIT_ACK = 25;
+    private static final int S2U_TIME_LINE = 40;
     private static final int S2U_LEAVE_ACK = 26;
     private static final int S2U_LEAVE_NOTIFY = 27;
     private static final int S2U_FEATURE_UPDATE = 28;
@@ -92,7 +95,7 @@ public class PersistentWebSocketClient extends WebSocketClient {
             e.printStackTrace();
         }
 
-        try{
+        try {
 //            if (cmd.getType() == 28){
 //                List<FeatureOuterClass.Feature.FeatureItem> featureList = FeatureOuterClass.Feature.parseFrom(cmd.getData()).getListList();
 //                int bulletId = 1;
@@ -111,47 +114,107 @@ public class PersistentWebSocketClient extends WebSocketClient {
 //
 //                System.out.println("parse feature done!");
 //            }
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println("parse feature failure " + e.getMessage());
         }
 
 
+//        try {
+//            if (cmd.getType() == S2U_SHOOT_NOTIFY) { // S2U_HIT_ACK
+//                ShootAckOuterClass.ShootAck shootAck = ShootAckOuterClass.ShootAck.parseFrom(cmd.getData());
+//                int fishIdHit = shootAck.getData().getFishId();
+//                float remain = shootAck.getRemain();
+//                float coin = shootAck.getCoin();
+//                int bullet = shootAck.getDataOrBuilder().getBulletId();
+//                System.out.println("received SHOOT_NOTIFY:::" + fishIdHit + "::: remain " + remain + "::: coin " + coin + "::: bullet " + bullet);
+//
+//                // Check if fishIdHit exists in fishInfoList
+//                boolean found = GameClient2.fishInfoList.stream()
+//                        .anyMatch(info -> fishIdHit == (Integer) info.get("fishId")
+//                                && !GameClient2.fishDeadList.contains(fishIdHit));
+//
+//                if (found) {
+//                    System.out.println("====> fishIdHit " + fishIdHit + " found in fishInfoList.");
+//                    Random random = new Random();
+//                    float x = -300 + random.nextFloat() * 100; // range: -300 to -200
+//                    float y = -300 + random.nextFloat() * 100; // range: -300 to -200
+//
+//                    sendShootRequest(100, x, y, GameClient2.bulletId, fishIdHit, ShootReqOuterClass.ShootType.NORMAL);
+//                    Thread.sleep(50L);
+//                    sendHitRequest(GameClient2.bulletId, fishIdHit, 1);
+//
+//                    GameClient2.bulletId++;
+//                    GameClient2.fishDeadList.add(fishIdHit);
+//                }
+//            } else {
+//            }
+//
+//        } catch (InvalidProtocolBufferException invalidProtocolBufferException) {
+//            invalidProtocolBufferException.printStackTrace();
+//        }
+
         try {
-            if (cmd.getType() == 25) { // S2U_HIT_ACK
+            if (cmd.getType() == S2U_HIT_ACK) { // S2U_HIT_ACK
                 HitAckOuterClass.HitAck hitAck = HitAckOuterClass.HitAck.parseFrom(cmd.getData());
-           //     System.out.println("Hit ACK data: " + hitAck);
-             //   System.out.printf("[←] Received HIT_ACK (type=25): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, bonus=%.2f%n",
-               //         hitAck.getSeat(), hitAck.getBulletId(), hitAck.getBet(), hitAck.getRemain(), hitAck.getBonus());
 
-                // Print dead fish info
+                int bulletId = hitAck.getBulletId();
+                double remain = hitAck.getRemain();
+                double bonus = hitAck.getBonus();
+
+                int sizeDead = hitAck.getDeadList().size();
+
+                System.out.println("received sizeDead " + sizeDead  + ": : bulletId " + bulletId + "::: remain " + remain + "::: bonus " + bonus );
+
+                hitAck.getDeadList().stream().forEach(dead -> {
+                    System.out.println("Dead bulletId " + bulletId  + "====> id: " + dead.getId() + "| coin: " + dead.getCoin());
+                });
+
+                List<Integer> deadFishIds = new ArrayList<>();
                 for (HitAckOuterClass.HitAck.Fish fish : hitAck.getDeadList()) {
-              //      System.out.printf("    Dead fish: id=%d, coin=%.2f%n", fish.getId(), fish.getCoin());
+                    deadFishIds.add(fish.getId());
+
+                    //    System.out.println("Dead fish:::: " + fish.getId());
+                    GameClient2.fishDeadList.add(fish.getId());
                 }
 
-                // Print jackpot info if exists
-                if (hitAck.hasJackpot()) {
-                    HitAckOuterClass.HitAck.Jackpot jackpot = hitAck.getJackpot();
-                    System.out.printf("    Jackpot: type=%s, coin=%.2f%n",
-                            jackpot.getType().name(), jackpot.getCoin());
-                }
-                Thread.sleep(100);
             }
-        } catch (Exception e) {
+        } catch (
+                Exception e) {
             System.out.println("S2U_HIT_ACK failure " + e.getMessage());
+        }
+
+        try {
+            if (cmd.getType() == S2U_TIME_LINE) { // S2U_HIT_ACK
+                //     System.out.println("Receive TimeLine dead fish");
+                TimeLine.Timeline timeline = TimeLine.Timeline.parseFrom(cmd.getData());
+
+                if (timeline != null && timeline.getDeadCount() > 0) {
+                    for (int deadFishId : timeline.getDeadList()) {
+                        if (!GameClient2.fishDeadList.contains(deadFishId)) {
+                            GameClient2.fishDeadList.add(deadFishId);
+                            //   System.out.println("S2U_TIME_LINE Added dead fish ID: " + deadFishId);
+                        }
+                    }
+                }
+            }
+        } catch (
+                Exception e) {
+            System.out.println("S2U_TIME_LINE failure " + e.getMessage());
         }
 
         try {
             if (cmd.getType() == 23) {
 
                 ShootAckOuterClass.ShootAck shootAck = ShootAckOuterClass.ShootAck.parseFrom(message.array());
-           //     System.out.printf("[←] Received SHOOT_NOTIFY (type=23): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, fishId=%d%n",
-               //         shootAck.getSeat(), shootAck.getRemain());
+                //     System.out.printf("[←] Received SHOOT_NOTIFY (type=23): seat=%d, bulletId=%d, bet=%.2f, remain=%.2f, fishId=%d%n",
+                //         shootAck.getSeat(), shootAck.getRemain());
 
 
                 // Wait a bit before sending next request
                 Thread.sleep(100);
             }
-        } catch (Exception e) {
+        } catch (
+                Exception e) {
             System.out.println("ShootAck failure " + e.getMessage());
         }
 
@@ -194,9 +257,64 @@ public class PersistentWebSocketClient extends WebSocketClient {
             }
 
 
-        } catch (Exception e) {
+        } catch (
+                Exception e) {
             System.err.println("[!] Failed to parse Command: " + e.getMessage());
         }
+
+    }
+
+    private void processNextBatch() {
+        synchronized (pendingBatches) {
+            if (isProcessingBatch || pendingBatches.isEmpty()) return;
+            isProcessingBatch = true;
+            List<Map<String, Object>> batch = pendingBatches.poll();
+            new Thread(() -> {
+                try {
+                    int bulletId = 1; // or get from context
+                    for (Map<String, Object> info : batch) {
+                        Integer fishId = (Integer) info.get("fishId");
+                        if (GameClient2.fishDeadList.contains(fishId)) continue;
+                        float x = (Float) info.get("x");
+                        float y = (Float) info.get("y");
+                        int bet = 100; // or get from context
+                        ShootReqOuterClass.ShootType type = ShootReqOuterClass.ShootType.NORMAL;
+                        sendShootRequest(bet, x, y, bulletId, 0, type);
+                        Thread.sleep(50L);
+                        sendHitRequest(bulletId, fishId, 1);
+                        bulletId++;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
+                    synchronized (pendingBatches) {
+                        isProcessingBatch = false;
+                        if (!pendingBatches.isEmpty()) {
+                            processNextBatch();
+                        }
+                    }
+                }
+            }).start();
+        }
+    }
+
+    private List<Map<String, Object>> getFishBatch(int deadFishId) {
+        List<Map<String, Object>> fishInfoList = GameClient2.fishInfoList;
+        List<Map<String, Object>> batch = new ArrayList<>();
+        int startIndex = -1;
+        for (int i = 0; i < fishInfoList.size(); i++) {
+            Integer fishId = (Integer) fishInfoList.get(i).get("fishId");
+            if (fishId >= deadFishId) {
+                startIndex = i;
+                break;
+            }
+        }
+        if (startIndex != -1) {
+            for (int i = startIndex; i < Math.min(startIndex + 300, fishInfoList.size()); i++) {
+                batch.add(fishInfoList.get(i));
+            }
+        }
+        return batch;
     }
 
     private void sendLoginRequest() {
@@ -649,10 +767,37 @@ public class PersistentWebSocketClient extends WebSocketClient {
             public void run() {
                 if (isOpen()) {
                     sendPing1();
-                  //  System.out.println("Send ping ok");
+                    //  System.out.println("Send ping ok");
                 }
             }
-        }, 5000, 5000);
+        }, 2000, 2000);
+    }
+
+    private void startHit() {
+        pingTimer = new Timer(true);
+        pingTimer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                if (isOpen()) {
+                    sendPing1();
+                    //  System.out.println("Send ping ok");
+                }
+
+                Random random = new Random();
+                float x = -300 + random.nextFloat() * 100; // range: -300 to -200
+                float y = -300 + random.nextFloat() * 100; // range: -300 to -200
+
+                sendShootRequest(100, x, y, GameClient2.bulletId, random.nextInt(2000), ShootReqOuterClass.ShootType.NORMAL);
+                try {
+                    Thread.sleep(50L);
+                } catch (InterruptedException interruptedException) {
+                    interruptedException.printStackTrace();
+                }
+                sendHitRequest(GameClient2.bulletId, random.nextInt(2000), 1);
+
+                GameClient2.bulletId++;
+            }
+        }, 30000, 30000);
     }
 
     public void sendHitRequest(int bulletId, int fishId, int hits) {
@@ -675,7 +820,7 @@ public class PersistentWebSocketClient extends WebSocketClient {
             buffer.flip();
 
             this.send(buffer);
-          // System.out.printf("[↑] Sent HIT_REQ (type=23) bulletId=%d, fishId=%d, hits=%d%n", bulletId, fishId, hits);
+            // System.out.printf("[↑] Sent HIT_REQ (type=23) bulletId=%d, fishId=%d, hits=%d%n", bulletId, fishId, hits);
         } catch (Exception e) {
             System.err.println("[!] Failed to send HIT_REQ: " + e.getMessage());
         }

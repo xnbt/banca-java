@@ -1,152 +1,172 @@
 
-[	java:S106ã"9Replace this use of System.out or System.err by a logger.(¶³ñ¾øÿÿÿÿ8š±ó…ù2
-[	java:S106Ü"9Replace this use of System.out or System.err by a logger.(‚áÃÃøÿÿÿÿ8š±ó…ù2
-[	java:S106á"9Replace this use of System.out or System.err by a logger.(ËÌÍÍıÿÿÿÿ8™±ó…ù2
-[	java:S106÷"9Replace this use of System.out or System.err by a logger.(²²”•øÿÿÿÿ8š±ó…ù2
-j	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êø¸L8š±ó…ù2
-P
-java:S1068#"3Remove this unused "U2S_JACKPOT_REQ" private field.(µÃøš8¸æøÇô2
-V
-java:S1068,"4Remove this unused "S2U_SHOOT_CANCEL" private field.(¨å¨Óÿÿÿÿÿ8¸æøÇô2
-Q
-java:S10689"4Remove this unused "ROOM_TYPE_SINGLE" private field.(ï»‹—8š±ó…ù2
-V	java:S106Š"9Replace this use of System.out or System.err by a logger.(á¸Ø’8š±ó…ù2
-T
-java:S2387"2"uri" is the name of a field in "WebSocketClient".(Ûèê¾ùÿÿÿÿ8™±ó…ù2
-S
-java:S1068 "1Remove this unused "U2S_SHOOT_REQ" private field.(ıñÀùûÿÿÿÿ8š±ó…ù2
-T
-java:S1068%"7Remove this unused "U2S_JACKOPT_HISTORY" private field.(òˆº–8š±ó…ù2
-^	java:S125”"<This block of commented-out lines of code should be removed.(É‡Ş›şÿÿÿÿ8Î¢ö¶ù2
-P
-java:S10683"3Remove this unused "S2U_JACKPOT_ACK" private field.(Óˆ”ë8¸æøÇô2
-Y	java:S125¦"<This block of commented-out lines of code should be removed.(ßòÜº8š±ó…ù2
-}
-java:S1192÷"_Define a constant instead of duplicating this literal "[!] Failed to send MAIL_INFO: " 3 times.(á¸Ø’8™±ó…ù2
-Y
-java:S10684"7Remove this unused "S2U_JACKOPT_HISTORY" private field.(‹­…ùÿÿÿÿ8¸æøÇô2
-V	java:S106÷"9Replace this use of System.out or System.err by a logger.(á¸Ø’8š±ó…ù2
-S
-java:S1068="6Remove this unused "BULLET_TYPE_ENERGY" private field.(»‡³8¸æøÇô2
-[	java:S106†"9Replace this use of System.out or System.err by a logger.(ÃşÈªøÿÿÿÿ8™±ó…ù2
-Y	java:S125¡"<This block of commented-out lines of code should be removed.(û“»¼8™±ó…ù2
-V	java:S106Ï"9Replace this use of System.out or System.err by a logger.(¶ú…Î8š±ó…ù2
-J
-java:S1068"-Remove this unused "loginSent" private field.(ä”Ã—8š±ó…ù2
-V	java:S106—"9Replace this use of System.out or System.err by a logger.(‹òäŒ8š±ó…ù2
-U	java:S106ë"9Replace this use of System.out or System.err by a logger.(¼ø¾8š±ó…ù2
-
-java:S1192“"aDefine a constant instead of duplicating this literal "[â†‘] Sent U2S_REWARD_INFO (45) " 3 times.(å³¯8™±ó…ù2
-[	java:S106"9Replace this use of System.out or System.err by a logger.(…ì·ÿÿÿÿÿ8š±ó…ù2
-K
-java:S1481")Remove this unused "fish" local variable.(¦í°¶ûÿÿÿÿ8Î¢ö¶ù2
-^	java:S125³"<This block of commented-out lines of code should be removed.(ö’œÁøÿÿÿÿ8™±ó…ù2
-V	java:S106Í"9Replace this use of System.out or System.err by a logger.(á¸Ø’8š±ó…ù2
-X
-java:S1144ç"5Remove this unused private "sendJoinRequest2" method.(ö­¿Ëüÿÿÿÿ8š±ó…ù2
-V	java:S106ğ"9Replace this use of System.out or System.err by a logger.(“—¬©8š±ó…ù2
-Y	java:S125Œ"<This block of commented-out lines of code should be removed.(ÃÇŸÉ8Î¢ö¶ù2
-p	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ğù™ıÿÿÿÿ8š±ó…ù2
-N
-java:S1172š"+Remove this unused method parameter "type".(»¤•åúÿÿÿÿ8™±ó…ù2
-X	java:S125z"<This block of commented-out lines of code should be removed.(ÔúŸş8Î¢ö¶ù2
-k	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÒãĞ8š±ó…ù2
-[	java:S106ü"9Replace this use of System.out or System.err by a logger.(í¦†Ûûÿÿÿÿ8š±ó…ù2
-M
-java:S1144§"/Remove this unused private "bytesToHex" method.(Ñø8š±ó…ù2
-^	java:S125€"<This block of commented-out lines of code should be removed.(©ªØ–úÿÿÿÿ8™±ó…ù2
-[	java:S106á"9Replace this use of System.out or System.err by a logger.(»ù»üÿÿÿÿ8š±ó…ù2
-N
-java:S1068."1Remove this unused "S2U_LEAVE_ACK" private field.(´†’ú8¸æøÇô2
-p	java:S100Í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Èëûıÿÿÿÿ8™±ó…ù2
-Q
-java:S1068/"4Remove this unused "S2U_LEAVE_NOTIFY" private field.(Ë´Åò8¸æøÇô2
-X	java:S125`"<This block of commented-out lines of code should be removed.(¨´…ÿ8Î¢ö¶ù2
-_
-java:S1854’"<Remove this useless assignment to local variable "shootAck".(¿¾ñåûÿÿÿÿ8Î¢ö¶ù2
-[	java:S106ã"9Replace this use of System.out or System.err by a logger.(íª ›şÿÿÿÿ8š±ó…ù2
-[	java:S106õ"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8š±ó…ù2
-Q
-java:S1068>"4Remove this unused "BULLET_TYPE_FIRE" private field.(•²ø8š±ó…ù2
-N
-java:S1068",Remove this unused "U2S_NONE" private field.(Ç·‰…úÿÿÿÿ8š±ó…ù2
 U
-java:S10685"3Remove this unused "S2U_FIRE_NOTIFY" private field.(ğÏù•ÿÿÿÿÿ8š±ó…ù2
-V	java:S106¹"9Replace this use of System.out or System.err by a logger.(å³¯8š±ó…ù2
-k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãš¥—8š±ó…ù2
+java:S10688"3Remove this unused "S2U_FIRE_NOTIFY" private field.(ğÏù•ÿÿÿÿÿ8³¦›Õû2
+P
+java:S1068,"3Remove this unused "S2U_JOIN_NOTIFY" private field.(«Àªˆ8³¦›Õû2
+V
+java:S1068."4Remove this unused "S2U_SHOOT_CANCEL" private field.(¨å¨Óÿÿÿÿÿ8³¦›Õû2
+S
+java:S1068$"1Remove this unused "U2S_LEAVE_REQ" private field.( ´²´ûÿÿÿÿ8³¦›Õû2
+S
+java:S10685"1Remove this unused "S2U_BROADCAST" private field.(³è¯ãşÿÿÿÿ8³¦›Õû2
+J
+java:S1068"-Remove this unused "loginSent" private field.(ä”Ã—8³¦›Õû2
 X
-java:S10681"6Remove this unused "S2U_VAMPIRE_UPDATE" private field.(š”í©ÿÿÿÿÿ8¸æøÇô2
-[	java:S106¼"9Replace this use of System.out or System.err by a logger.(•–àäÿÿÿÿÿ8š±ó…ù2
-S
-java:S1068""1Remove this unused "U2S_LEAVE_REQ" private field.( ´²´ûÿÿÿÿ8¸æøÇô2
-k	java:S100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ†Í”8š±ó…ù2
-[	java:S106á"9Replace this use of System.out or System.err by a logger.(‚„«ğıÿÿÿÿ8š±ó…ù2
-V	java:S106Ú"9Replace this use of System.out or System.err by a logger.(ï½ˆİ8š±ó…ù2
-[	java:S106Í"9Replace this use of System.out or System.err by a logger.(€İŠ ÿÿÿÿÿ8š±ó…ù2
-W
-java:S4719‰"9Replace charset name argument with StandardCharsets.UTF_8(Üë“ö8™±ó…ù2
-[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ß„ššıÿÿÿÿ8™±ó…ù2
-[	java:S106÷"9Replace this use of System.out or System.err by a logger.(À¯‚‘ùÿÿÿÿ8š±ó…ù2
-V	java:S106º"9Replace this use of System.out or System.err by a logger.(æ¡‚‡8š±ó…ù2
-L
-java:S1068-"/Remove this unused "S2U_HIT_ACK" private field.(êşİö8¸æøÇô2
-[	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(•–àäÿÿÿÿÿ8š±ó…ù2
-V	java:S106”"9Replace this use of System.out or System.err by a logger.(¢€Ëó8š±ó…ù2
-[	java:S106í"9Replace this use of System.out or System.err by a logger.(ıùş§üÿÿÿÿ8š±ó…ù2
-[	java:S106Ç"9Replace this use of System.out or System.err by a logger.( “¯çıÿÿÿÿ8™±ó…ù2
-[	java:S106"9Replace this use of System.out or System.err by a logger.(…œ†¬ùÿÿÿÿ8š±ó…ù2
-[	java:S106¨"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8š±ó…ù2
-S
-java:S1068<"6Remove this unused "BULLET_TYPE_NORMAL" private field.(î„ï¤8¸æøÇô2
-Z	java:S106R"9Replace this use of System.out or System.err by a logger.(¾±Öêıÿÿÿÿ8™±ó…ù2
-p	java:S100à"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀûŒÃşÿÿÿÿ8š±ó…ù2
-V	java:S106›"9Replace this use of System.out or System.err by a logger.(ïÍ¶‘8™±ó…ù2
-[	java:S106±"9Replace this use of System.out or System.err by a logger.(œÙ´¾üÿÿÿÿ8š±ó…ù2
-[	java:S106ï"9Replace this use of System.out or System.err by a logger.(ç¹şùÿÿÿÿ8š±ó…ù2
-V	java:S106Î"9Replace this use of System.out or System.err by a logger.(æ¡‚‡8š±ó…ù2
-V	java:S106ğ"9Replace this use of System.out or System.err by a logger.(æ›™Š8™±ó…ù2
-V	java:S106¦"9Replace this use of System.out or System.err by a logger.(å³¯8š±ó…ù2
-[	java:S106•"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8š±ó…ù2
-V	java:S106ã"9Replace this use of System.out or System.err by a logger.(ù›Ğ8š±ó…ù2
-V	java:S106¨"9Replace this use of System.out or System.err by a logger.(Ğºê”8š±ó…ù2
-R
-java:S1068)"0Remove this unused "S2U_JOIN_ACK" private field.(±İÚµúÿÿÿÿ8¸æøÇô2
-N
-java:S1068(",Remove this unused "S2U_NONE" private field.( µ‡Áûÿÿÿÿ8¸æøÇô2
-V	java:S106€"9Replace this use of System.out or System.err by a logger.(—€˜Ÿ8š±ó…ù2
-u
-java:S1450"XRemove the "loginSent" field and declare it as a local variable in the relevant methods.(ä”Ã—8™±ó…ù2
-^	java:S125"<This block of commented-out lines of code should be removed.(ğµßÍşÿÿÿÿ8™±ó…ù2
-V	java:S106É"9Replace this use of System.out or System.err by a logger.(ğÑ¶Ñ8™±ó…ù2
-”
-java:S1192õ"qDefine a constant instead of duplicating this literal "[â†‘] Sent U2S_MAIL_INFO (115) with lang = vi-VN" 3 times.(ÁÒœúÿÿÿÿ8™±ó…ù2
-ˆ
-java:S1192•"eDefine a constant instead of duplicating this literal "[!] Failed to send U2S_REWARD_INFO: " 3 times.(µä§şüÿÿÿÿ8™±ó…ù2
-V	java:S106‚"9Replace this use of System.out or System.err by a logger.(Ó‹×Ó8š±ó…ù2
+java:S10684"6Remove this unused "S2U_VAMPIRE_UPDATE" private field.(š”í©ÿÿÿÿÿ8³¦›Õû2
 Q
-java:S1068$"4Remove this unused "U2S_SHOOT_CANCEL" private field.(¶±ûø8¸æøÇô2
-k	java:S100º"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£±å©8™±ó…ù2
-V	java:S106“"9Replace this use of System.out or System.err by a logger.(å³¯8š±ó…ù2
-[	java:S106»"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8š±ó…ù2
-p	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÆĞÌşÿÿÿÿ8š±ó…ù2
-[	java:S106µ"9Replace this use of System.out or System.err by a logger.(çÓïòÿÿÿÿÿ8™±ó…ù2
-V	java:S106å"9Replace this use of System.out or System.err by a logger.(®èã8š±ó…ù2
-^	java:S125õ"<This block of commented-out lines of code should be removed.(ºÏ™ùÿÿÿÿ8š±ó…ù2
-P
-java:S1481’"-Remove this unused "shootAck" local variable.(¿¾ñåûÿÿÿÿ8Î¢ö¶ù2
+java:S1068A"4Remove this unused "BULLET_TYPE_FIRE" private field.(•²ø8³¦›Õû2
+N
+java:S1068 ",Remove this unused "U2S_NONE" private field.(Ç·‰…úÿÿÿÿ8³¦›Õû2
+N
+java:S1068*",Remove this unused "S2U_NONE" private field.( µ‡Áûÿÿÿÿ8³¦›Õû2
+Q
+java:S1068<"4Remove this unused "ROOM_TYPE_SINGLE" private field.(ï»‹—8³¦›Õû2
 S
-java:S10682"1Remove this unused "S2U_BROADCAST" private field.(³è¯ãşÿÿÿÿ8¸æøÇô2
-[	java:S106Æ"9Replace this use of System.out or System.err by a logger.(£ºİşÿÿÿÿ8™±ó…ù2
-V	java:S106Ë"9Replace this use of System.out or System.err by a logger.(©…¶é8š±ó…ù2
-P
-java:S1068*"3Remove this unused "S2U_JOIN_NOTIFY" private field.(«Àªˆ8¸æøÇô2
-V	java:S106œ"9Replace this use of System.out or System.err by a logger.(†¾üâ8š±ó…ù2
+java:S1068""1Remove this unused "U2S_SHOOT_REQ" private field.(ıñÀùûÿÿÿÿ8³¦›Õû2
+u
+java:S1450"XRemove the "loginSent" field and declare it as a local variable in the relevant methods.(ä”Ã—8™±ó…ù2
+S
+java:S1068@"6Remove this unused "BULLET_TYPE_ENERGY" private field.(»‡³8³¦›Õû2
+Q
+java:S10682"4Remove this unused "S2U_LEAVE_NOTIFY" private field.(Ë´Åò8³¦›Õû2
+N
+java:S10681"1Remove this unused "S2U_LEAVE_ACK" private field.(´†’ú8³¦›Õû2
 R
-java:S10680"6Remove this unused "S2U_FEATURE_UPDATE" private field.(À§°J8¸æøÇô2
-[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8š±ó…ù2
-[	java:S106¯"9Replace this use of System.out or System.err by a logger.(ş’Ï¿ùÿÿÿÿ8š±ó…ù2
+java:S1068+"0Remove this unused "S2U_JOIN_ACK" private field.(±İÚµúÿÿÿÿ8³¦›Õû2
+S
+java:S1068?"6Remove this unused "BULLET_TYPE_NORMAL" private field.(î„ï¤8³¦›Õû2
+j
+java:S1192…"GDefine a constant instead of duplicating this literal "fishId" 4 times.(‚õĞ¿şÿÿÿÿ8øû—‡‚3
+T	java:S106v"9Replace this use of System.out or System.err by a logger.(œŸï/8³¦›Õû2
+T
+java:S2387"2"uri" is the name of a field in "WebSocketClient".(Ûèê¾ùÿÿÿÿ8™±ó…ù2
+o
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÚßíÎ8³¦›Õû2
+[	java:S106"9Replace this use of System.out or System.err by a logger.(—îèÁıÿÿÿÿ8¬ÒÀ‡‚3
 P
-java:S1068+"4Remove this unused "S2U_SHOOT_NOTIFY" private field.(Û£:8¸æøÇô2
-T	java:S106s"9Replace this use of System.out or System.err by a logger.(œŸï/8üµñû2
-^	java:S125€"<This block of commented-out lines of code should be removed.(Ê°òÜúÿÿÿÿ8üµñû2
-[	java:S106¥"9Replace this use of System.out or System.err by a logger.(áª¬ôşÿÿÿÿ8üµñû2
+java:S1068%"3Remove this unused "U2S_JACKPOT_REQ" private field.(µÃøš8³¦›Õû2
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(¾±Öêıÿÿÿÿ8³¦›Õû2
+Y
+java:S10687"7Remove this unused "S2U_JACKOPT_HISTORY" private field.(‹­…ùÿÿÿÿ8³¦›Õû2
+X	java:S125c"<This block of commented-out lines of code should be removed.(¨´…ÿ8³¦›Õû2
+Q
+java:S1068&"4Remove this unused "U2S_SHOOT_CANCEL" private field.(¶±ûø8³¦›Õû2
+T
+java:S1068'"7Remove this unused "U2S_JACKOPT_HISTORY" private field.(òˆº–8³¦›Õû2
+R
+java:S10683"6Remove this unused "S2U_FEATURE_UPDATE" private field.(À§°J8³¦›Õû2
+P
+java:S10686"3Remove this unused "S2U_JACKPOT_ACK" private field.(Óˆ”ë8³¦›Õû2
+ˆ
+java:S1192…"eDefine a constant instead of duplicating this literal "[!] Failed to send U2S_REWARD_INFO: " 3 times.(µä§şüÿÿÿÿ8Œ¼ä‡‚3
+
+java:S1192ƒ"aDefine a constant instead of duplicating this literal "[â†‘] Sent U2S_REWARD_INFO (45) " 3 times.(å³¯8Œ¼ä‡‚3
+”
+java:S1192å"qDefine a constant instead of duplicating this literal "[â†‘] Sent U2S_MAIL_INFO (115) with lang = vi-VN" 3 times.(ÁÒœúÿÿÿÿ8Œ¼ä‡‚3
+}
+java:S1192ç"_Define a constant instead of duplicating this literal "[!] Failed to send MAIL_INFO: " 3 times.(á¸Ø’8Œ¼ä‡‚3
+_
+java:S1854Ê"<Remove this useless assignment to local variable "shootAck".(¿¾ñåûÿÿÿÿ8Œ¼ä‡‚3
+i
+java:S2142š"FEither re-interrupt this method or rethrow the "InterruptedException".(àÏƒùüÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106‰"9Replace this use of System.out or System.err by a logger.(ó¾ŠÖùÿÿÿÿ8Œ¼ä‡‚3
+;
+java:S2119Š"Save and re-use this "Random".(¼İÅf8Œ¼ä‡‚3
+Y
+java:S2696’"6Make the enclosing method "static" or remove this set.(è¿Ùšùÿÿÿÿ8Œ¼ä‡‚3
+F	java:S108•")Either remove or fill this block of code.(å¥‡8Œ¼ä‡‚3
+Y	java:S125¡"<This block of commented-out lines of code should be removed.(ÔúŸş8Œ¼ä‡‚3
+^	java:S125ª"<This block of commented-out lines of code should be removed.(‰æÔûÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106±"9Replace this use of System.out or System.err by a logger.(ß„ššıÿÿÿÿ8Œ¼ä‡‚3
+^	java:S125¶"<This block of commented-out lines of code should be removed.(ìˆŸ”øÿÿÿÿ8Œ¼ä‡‚3
+^	java:S125½"<This block of commented-out lines of code should be removed.(ªû…èúÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106Ä"9Replace this use of System.out or System.err by a logger.(®¶Õä8Œ¼ä‡‚3
+^	java:S125Ì"<This block of commented-out lines of code should be removed.(É‡Ş›şÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106Ô"9Replace this use of System.out or System.err by a logger.(ïÍ¶‘8Œ¼ä‡‚3
+^	java:S125×"<This block of commented-out lines of code should be removed.(ğµßÍşÿÿÿÿ8Œ¼ä‡‚3
+Y	java:S125Ú"<This block of commented-out lines of code should be removed.(û“»¼8Œ¼ä‡‚3
+[	java:S106Ş"9Replace this use of System.out or System.err by a logger.(áª¬ôşÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106€"9Replace this use of System.out or System.err by a logger.(£ºİşÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(ËÌÍÍıÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106à"9Replace this use of System.out or System.err by a logger.(æ›™Š8Œ¼ä‡‚3
+^	java:S125ğ"<This block of commented-out lines of code should be removed.(©ªØ–úÿÿÿÿ8Œ¼ä‡‚3
+W
+java:S4719ù"9Replace charset name argument with StandardCharsets.UTF_8(Üë“ö8Œ¼ä‡‚3
+N
+java:S1172Š"+Remove this unused method parameter "type".(»¤•åúÿÿÿÿ8Œ¼ä‡‚3
+^	java:S125£"<This block of commented-out lines of code should be removed.(ö’œÁøÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106¥"9Replace this use of System.out or System.err by a logger.(çÓïòÿÿÿÿÿ8Œ¼ä‡‚3
+k	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£±å©8Œ¼ä‡‚3
+[	java:S106·"9Replace this use of System.out or System.err by a logger.( “¯çıÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(ğÑ¶Ñ8Œ¼ä‡‚3
+p	java:S100½"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Èëûıÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(ï½ˆİ8Œ¼ä‡‚3
+[	java:S106Ì"9Replace this use of System.out or System.err by a logger.(‚áÃÃøÿÿÿÿ8Œ¼ä‡‚3
+p	java:S100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀûŒÃşÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106İ"9Replace this use of System.out or System.err by a logger.(ıùş§üÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106ß"9Replace this use of System.out or System.err by a logger.(ç¹şùÿÿÿÿ8Œ¼ä‡‚3
+k	java:S100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ†Í”8Œ¼ä‡‚3
+V	java:S106ğ"9Replace this use of System.out or System.err by a logger.(—€˜Ÿ8Œ¼ä‡‚3
+V	java:S106ò"9Replace this use of System.out or System.err by a logger.(Ó‹×Ó8Œ¼ä‡‚3
+p	java:S100ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ğù™ıÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(å³¯8Œ¼ä‡‚3
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8Œ¼ä‡‚3
+p	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÆĞÌşÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106–"9Replace this use of System.out or System.err by a logger.(å³¯8Œ¼ä‡‚3
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8Œ¼ä‡‚3
+j	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êø¸L8Œ¼ä‡‚3
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(å³¯8Œ¼ä‡‚3
+[	java:S106«"9Replace this use of System.out or System.err by a logger.(µä§şüÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106½"9Replace this use of System.out or System.err by a logger.(€İŠ ÿÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106¿"9Replace this use of System.out or System.err by a logger.(¶ú…Î8Œ¼ä‡‚3
+[	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(‚„«ğıÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106Ó"9Replace this use of System.out or System.err by a logger.(¶³ñ¾øÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106å"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106ç"9Replace this use of System.out or System.err by a logger.(á¸Ø’8Œ¼ä‡‚3
+[	java:S106ø"9Replace this use of System.out or System.err by a logger.(ÁÒœúÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106ú"9Replace this use of System.out or System.err by a logger.(á¸Ø’8Œ¼ä‡‚3
+k	java:S100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãš¥—8Œ¼ä‡‚3
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(†¾üâ8Œ¼ä‡‚3
+[	java:S106"9Replace this use of System.out or System.err by a logger.(…ì·ÿÿÿÿÿ8Œ¼ä‡‚3
+k	java:S100’"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÒãĞ8Œ¼ä‡‚3
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ş’Ï¿ùÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(œÙ´¾üÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106»"9Replace this use of System.out or System.err by a logger.(©…¶é8Œ¼ä‡‚3
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(á¸Ø’8Œ¼ä‡‚3
+V	java:S106Ó"9Replace this use of System.out or System.err by a logger.(ù›Ğ8Œ¼ä‡‚3
+V	java:S106Õ"9Replace this use of System.out or System.err by a logger.(®èã8Œ¼ä‡‚3
+U	java:S106Û"9Replace this use of System.out or System.err by a logger.(¼ø¾8Œ¼ä‡‚3
+V	java:S106à"9Replace this use of System.out or System.err by a logger.(“—¬©8Œ¼ä‡‚3
+[	java:S106ç"9Replace this use of System.out or System.err by a logger.(²²”•øÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106ì"9Replace this use of System.out or System.err by a logger.(í¦†Ûûÿÿÿÿ8Œ¼ä‡‚3
+Y	java:S125ü"<This block of commented-out lines of code should be removed.(ÃÇŸÉ8Œ¼ä‡‚3
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(ÃÇŸÉ8Œ¼ä‡‚3
+;
+java:S2119Œ"Save and re-use this "Random".(¼İÅf8Œ¼ä‡‚3
+i
+java:S2142“"FEither re-interrupt this method or rethrow the "InterruptedException".(àÏƒùüÿÿÿÿ8Œ¼ä‡‚3
+Y
+java:S2696˜"6Make the enclosing method "static" or remove this set.(è¿Ùšùÿÿÿÿ8Œ¼ä‡‚3
+Y	java:S125±"<This block of commented-out lines of code should be removed.(ßòÜº8Œ¼ä‡‚3
+V	java:S106³"9Replace this use of System.out or System.err by a logger.(Ğºê”8Œ¼ä‡‚3
+V	java:S106Å"9Replace this use of System.out or System.err by a logger.(æ¡‚‡8Œ¼ä‡‚3
+[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(•–àäÿÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106Ù"9Replace this use of System.out or System.err by a logger.(æ¡‚‡8Œ¼ä‡‚3
+[	java:S106Û"9Replace this use of System.out or System.err by a logger.(•–àäÿÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106ì"9Replace this use of System.out or System.err by a logger.(»ù»üÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106î"9Replace this use of System.out or System.err by a logger.(íª ›şÿÿÿÿ8Œ¼ä‡‚3
+^	java:S125€"<This block of commented-out lines of code should be removed.(ºÏ™ùÿÿÿÿ8Œ¼ä‡‚3
+[	java:S106‚"9Replace this use of System.out or System.err by a logger.(À¯‚‘ùÿÿÿÿ8Œ¼ä‡‚3
+V	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¢€Ëó8Œ¼ä‡‚3
+V	java:S106¢"9Replace this use of System.out or System.err by a logger.(‹òäŒ8Œ¼ä‡‚3
+[	java:S106©"9Replace this use of System.out or System.err by a logger.(…œ†¬ùÿÿÿÿ8Œ¼ä‡‚3
+P
+java:S1481Ê"-Remove this unused "shootAck" local variable.(¿¾ñåûÿÿÿÿ8Œ¼ä‡‚3
+T
+java:S1144§"1Remove this unused private "getFishBatch" method.(•äğÕüÿÿÿÿ8Œ¼ä‡‚3
+X
+java:S1144×"5Remove this unused private "sendJoinRequest2" method.(ö­¿Ëüÿÿÿÿ8Œ¼ä‡‚3
+P
+java:S1144‚"-Remove this unused private "startHit" method.(êĞ¦ñûÿÿÿÿ8Œ¼ä‡‚3
+M
+java:S1144²"/Remove this unused private "bytesToHex" method.(Ñø8Œ¼ä‡‚3

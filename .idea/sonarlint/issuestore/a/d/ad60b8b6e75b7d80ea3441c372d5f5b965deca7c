@@ -1,6 +1,19 @@
 
-G
-java:S1128"*Remove this unused import 'protocol.Join'.(Ä¿Õõ8‘Éîö2
+K
+java:S1128")Remove this unused import 'protocol.Hit'.(óäš•úÿÿÿÿ8èÙÇı2
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(È”ë“8èÙÇı2
 R
 java:S1128"5Remove this unused import 'annin_protocol.FullLogin'.(“Î Ÿ8ÔË¶Ğô2
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÃüÇ£8âƒ×Êô2
+m
+java:S1764'"KCorrect one of the identical sub-expressions on both sides of operator "||"(Ä„üüÿÿÿÿ8èÙÇı2
+_
+java:S1128"=Remove this unused import 'annin_protocol.CommandOuterClass'.(ˆÅåµùÿÿÿÿ8èÙÇı2
+]
+java:S1854"@Remove this useless assignment to local variable "fishInfoList".(ÄåÉ˜8èÙÇı2
+G
+java:S1128"*Remove this unused import 'protocol.Join'.(Ä¿Õõ8‘Éîö2
+\
+java:S1128
+":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8èÙÇı2
+N
+java:S1481"1Remove this unused "fishInfoList" local variable.(ÄåÉ˜8èÙÇı2

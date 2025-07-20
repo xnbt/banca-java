@@ -1,0 +1,70 @@
+syntax = "proto3";
+package fish;
+
+// The main script object
+message Script {
+  repeated MainData main = 1;
+  repeated RandomData random = 2;
+  repeated GroupData group = 3;
+  repeated PathData path = 4;
+  int64 version = 5;
+}
+
+// MainData message (kr)
+message MainData {
+  int32 no = 1;
+  repeated MainDataSub randoms = 2;
+}
+
+// MainDataSub message (Mr)
+message MainDataSub {
+  string name = 1;
+  repeated int32 random = 2;
+}
+
+// RandomData message (Er)
+message RandomData {
+  int32 id = 1;
+  repeated Random random = 2;
+}
+
+// Random message (Lr)
+message Random {
+  int32 id = 1;
+  float rate = 2;
+}
+
+// GroupData message (Ir)
+message GroupData {
+  int32 id = 1;
+  repeated Fish fish = 2;
+  float duration = 3;
+  float delay = 4;
+}
+
+// Fish message (Rr)
+message Fish {
+  int32 id = 1;
+  int32 fish = 2;
+  int32 path = 3;
+  float delay = 4;
+  bool flip = 5;
+  bool mirror = 6;
+}
+
+// PathData message (Dr)
+message PathData {
+  int32 id = 1;
+  float duration = 2;
+  repeated Point point = 3;
+}
+
+// Point message (Ar)
+message Point {
+  float x = 1;
+  float y = 2;
+  float duration = 3;
+  float delay = 4;
+  bool isSpline = 5;
+  float distance = 6;
+}

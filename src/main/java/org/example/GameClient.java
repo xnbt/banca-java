@@ -1,12 +1,17 @@
 package org.example;
 
 import annin_protocol.CommandOuterClass;
+import fish.FishOuterClass;
 import org.omg.PortableServer.THREAD_POLICY_ID;
 import protocol.Hit;
 import protocol.ShootReqOuterClass;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.URI;
-import java.util.Scanner;
+import java.net.URISyntaxException;
+import java.util.*;
 
 public class GameClient {
     public static void main(String[] args) throws Exception {
@@ -1582,48 +1587,48 @@ public class GameClient {
 //        }
 
 //
-        String token = "2374adb74d955761ba0842591a199d082ad6873a"; // token lấy từ login
-        String serverUrl = "wss://fish.bd33fgabh.com/v15/ws/" + token + "?r=0";
-
-        PersistentWebSocketClient socket = new PersistentWebSocketClient(new URI(serverUrl));
-        socket.safeConnect();
-
-        Thread.sleep(17000L); // Wait for connection to stabilize
-
-        int bet = 100;
-        ShootReqOuterClass.ShootType type = ShootReqOuterClass.ShootType.NORMAL;
-        Scanner scanner = new Scanner(System.in);
-
-        int bulletId = 1;
-
-        while (true) {
-            System.out.print("Enter fishId (or -1 to exit): ");
-            int fishId = scanner.nextInt();
-            if (fishId == -1) break;
-
-            System.out.println("fishId: " + fishId);
-
-        //    System.out.print("Enter x coordinate: ");
-            float x = -130.51436863039382f;
-
-         //   System.out.println("x: " + x);
-
-         //   System.out.print("Enter y coordinate: ");
-            float y = 141.4878493100918f;
-
-         //   System.out.println("y: " + y);
-
-            socket.sendShootRequest(bet, x, y, bulletId, fishId, type);
-        //    Thread.sleep(100);
-            socket.sendHitRequest(bulletId, fishId, 1);
-            bulletId++;
-
-       //     Thread.sleep(300L); // Delay between requests
-        }
-
-        scanner.close();
-        System.out.println("Finished sending fish requests.");
-    }
+//        String token = "2374adb74d955761ba0842591a199d082ad6873a"; // token lấy từ login
+//        String serverUrl = "wss://fish.bd33fgabh.com/v15/ws/" + token + "?r=0";
+//
+//        PersistentWebSocketClient socket = new PersistentWebSocketClient(new URI(serverUrl));
+//        socket.safeConnect();
+//
+//        Thread.sleep(17000L); // Wait for connection to stabilize
+//
+//        int bet = 100;
+//        ShootReqOuterClass.ShootType type = ShootReqOuterClass.ShootType.NORMAL;
+//        Scanner scanner = new Scanner(System.in);
+//        int fishId = scanner.nextInt();
+//        int bulletId = 1;
+//
+//        while (true) {
+//            System.out.print("Enter fishId (or -1 to exit): ");
+//            int fishId = scanner.nextInt();
+//            if (fishId == -1) break;
+//
+//            System.out.println("fishId: " + fishId);
+//
+//        //    System.out.print("Enter x coordinate: ");
+//            float x = -130.51436863039382f;
+//
+//         //   System.out.println("x: " + x);
+//
+//         //   System.out.print("Enter y coordinate: ");
+//            float y = 141.4878493100918f;
+//
+//         //   System.out.println("y: " + y);
+//
+//            socket.sendShootRequest(bet, x, y, bulletId, fishId, type);
+//        //    Thread.sleep(100);
+//            socket.sendHitRequest(bulletId, fishId, 1);
+//            bulletId++;
+//
+//       //     Thread.sleep(300L); // Delay between requests
+//        }
+//
+//        scanner.close();
+//        System.out.println("Finished sending fish requests.");
+//    }
 
 
 //        String token = "82b84ee2e357d053ac0838457585f5298d456438"; // token lấy từ login
@@ -1664,5 +1669,144 @@ public class GameClient {
 //            Thread.sleep(10000);
 //        }
 
-   // }
+        // }
+
+        func3();
+    }
+
+
+    public static void func3() throws IOException, InterruptedException {
+        String token = "d94162b8a06d590dbd9b0f7a2b6a8a5d8bd1e4bc"; // token lấy từ login
+        String serverUrl = "wss://fish.bd33fgabh.com/v15/ws/" + token + "?r=0";
+
+        PersistentWebSocketClient socket = null;
+        try {
+            socket = new PersistentWebSocketClient(new URI(serverUrl));
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+        socket.safeConnect();
+
+        try {
+            Thread.sleep(17000L); // Wait for connection to stabilize
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        int bet = 100;
+        ShootReqOuterClass.ShootType type = ShootReqOuterClass.ShootType.NORMAL;
+
+
+        int bulletId = 1;
+
+        FileInputStream fis = new FileInputStream("C:\\Users\\Donald Trung\\Desktop\\ddos\\webgame\\wgame\\fish2\\11");
+        FishOuterClass.Script script = FishOuterClass.Script.parseFrom(fis);
+
+        // Build a map from path id to PathData for quick lookup
+        Map<Integer, FishOuterClass.PathData> pathMap = new HashMap<>();
+        for (FishOuterClass.PathData path : script.getPathList()) {
+            pathMap.put(path.getId(), path);
+        }
+
+        // Store results in a list of maps
+        List<Map<String, Object>> fishInfoList = new ArrayList<>();
+
+        for (FishOuterClass.GroupData group : script.getGroupList()) {
+            for (FishOuterClass.Fish fish : group.getFishList()) {
+                int fishNo = fish.getFish();
+                if (fishNo == 1) {
+                    int fishId = fish.getId();
+                    int pathId = fish.getPath();
+                    float x = Float.NaN, y = Float.NaN;
+
+                    // Get the first point of the path, if available
+                    FishOuterClass.PathData pathData = pathMap.get(pathId);
+                    if (pathData != null && pathData.getPointCount() > 0) {
+                        FishOuterClass.Point point = pathData.getPoint(0);
+                        x = point.getX();
+                        y = point.getY();
+                    }
+
+                    // Put info into a map
+                    Map<String, Object> info = new HashMap<>();
+                    info.put("fishId", fishId);
+                    info.put("x", x);
+                    info.put("y", y);
+                    info.put("fishNo", fishNo);
+                    fishInfoList.add(info);
+                }
+            }
+        }
+
+        Random rd = new Random();
+        int min = 50;
+        int max = 100;
+        // Iterate and print
+
+        for(int i = 1; i <=100;i++) {
+            for (Map<String, Object> info : fishInfoList) {
+                int z = rd.nextInt(max - min + 1) + min;
+                System.out.printf("fishId: %d, x: %f, y: %f, fishNo: %d%n",
+                        info.get("fishId"), info.get("x"), info.get("y"), info.get("fishNo"));
+
+                socket.sendShootRequest(bet, (Float) (info.get("x")) + z, (Float) info.get("y") + z,
+                        bulletId, (Integer) info.get("fishId"), type);
+                Thread.sleep(5l);
+                socket.sendHitRequest(bulletId, (Integer) info.get("fishId"), 1);
+                bulletId++;
+                Thread.sleep(50l);
+
+            }
+            Thread.sleep(10000l);
+            System.out.println("done ===============================");
+            for (Map<String, Object> info : fishInfoList) {
+                int z = rd.nextInt(max - min + 1) + min;
+                System.out.printf("fishId: %d, x: %f, y: %f, fishNo: %d%n",
+                        info.get("fishId"), info.get("x"), info.get("y"), info.get("fishNo"));
+
+                socket.sendShootRequest(bet, (Float) (info.get("x")) + z, (Float) info.get("y") + z,
+                        bulletId, (Integer) info.get("fishId"), type);
+                Thread.sleep(5l);
+                socket.sendHitRequest(bulletId, (Integer) info.get("fishId"), 1);
+                bulletId++;
+                Thread.sleep(50l);
+
+            }
+            Thread.sleep(10000l);
+            System.out.println("done ===============================");
+            for (Map<String, Object> info : fishInfoList) {
+                int z = rd.nextInt(max - min + 1) + min;
+                System.out.printf("fishId: %d, x: %f, y: %f, fishNo: %d%n",
+                        info.get("fishId"), info.get("x"), info.get("y"), info.get("fishNo"));
+
+                socket.sendShootRequest(bet, (Float) (info.get("x")) + z, (Float) info.get("y") + z,
+                        bulletId, (Integer) info.get("fishId"), type);
+                Thread.sleep(5l);
+                socket.sendHitRequest(bulletId, (Integer) info.get("fishId"), 1);
+                bulletId++;
+                Thread.sleep(50l);
+
+            }
+            Thread.sleep(10000l);
+            System.out.println("done ===============================");
+            for (Map<String, Object> info : fishInfoList) {
+                int z = rd.nextInt(max - min + 1) + min;
+                System.out.printf("fishId: %d, x: %f, y: %f, fishNo: %d%n",
+                        info.get("fishId"), info.get("x"), info.get("y"), info.get("fishNo"));
+
+                socket.sendShootRequest(bet, (Float) (info.get("x")) + z, (Float) info.get("y") + z,
+                        bulletId, (Integer) info.get("fishId"), type);
+                Thread.sleep(5l);
+                socket.sendHitRequest(bulletId, (Integer) info.get("fishId"), 1);
+                bulletId++;
+                Thread.sleep(50l);
+
+            }
+
+            Thread.sleep(1000l*60*2);
+        }
+
+        System.out.println("Finished sending fish requests.");
+    }
+
 }

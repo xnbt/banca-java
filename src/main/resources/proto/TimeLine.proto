@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package fish;
+
+// Timeline message for fish spawning and management
+message Timeline {
+  // Serial number for the timeline
+  uint32 serial = 1;
+
+  // Current time in the timeline
+  uint32 time = 2;
+
+  // Pause duration
+  uint32 pause = 3;
+
+  // Groups of fish to spawn
+  repeated Group group = 4;
+
+  // List of dead fish IDs
+  repeated uint32 dead = 5;
+}
+
+// Group message representing a fish group to spawn
+message Group {
+  // Time when this group should spawn
+  float time = 1;
+
+  // Group identifier
+  uint32 group = 2;
+}
